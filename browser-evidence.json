@@ -1,0 +1,6179 @@
+{
+  "baseURL": "http://localhost:3000",
+  "reference": "Fragrancia HTTP CONNECT 403; no visual equivalence claimed",
+  "devices": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "pages": [
+        {
+          "path": "/",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "height": 4899,
+          "images": [
+            {
+              "alt": "Chefs finishing colourful plates together at an open restaurant kitchen",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fkitchen.jpg&w=1920&q=75",
+              "naturalWidth": 1728,
+              "naturalHeight": 757,
+              "loaded": true,
+              "renderWidth": 1526,
+              "renderHeight": 1100
+            },
+            {
+              "alt": "A golden skillet of chicken and herbs, a serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchicken.jpg&w=640&q=75",
+              "naturalWidth": 240,
+              "naturalHeight": 240,
+              "loaded": true,
+              "renderWidth": 218,
+              "renderHeight": 235
+            },
+            {
+              "alt": "Serving inspiration for Fire-roasted chicken",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchicken.jpg&w=640&q=75",
+              "naturalWidth": 460,
+              "naturalHeight": 460,
+              "loaded": true,
+              "renderWidth": 405,
+              "renderHeight": 513
+            },
+            {
+              "alt": "Serving inspiration for The ember beef bowl",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fsteak.jpg&w=640&q=75",
+              "naturalWidth": 460,
+              "naturalHeight": 344,
+              "loaded": true,
+              "renderWidth": 405,
+              "renderHeight": 513
+            },
+            {
+              "alt": "Serving inspiration for Garden harvest bowl",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fharvest.jpg&w=750&q=75",
+              "naturalWidth": 460,
+              "naturalHeight": 693,
+              "loaded": true,
+              "renderWidth": 405,
+              "renderHeight": 513
+            },
+            {
+              "alt": "Hands at work plating a meal in an open kitchen",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fkitchen.jpg&w=1920&q=75",
+              "naturalWidth": 648,
+              "naturalHeight": 284,
+              "loaded": true,
+              "renderWidth": 562,
+              "renderHeight": 530
+            },
+            {
+              "alt": "A colourful table of fresh vegetables, bread and warm cheese",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fvegetables.jpg&w=384&q=75",
+              "naturalWidth": 316,
+              "naturalHeight": 316,
+              "loaded": true,
+              "renderWidth": 321,
+              "renderHeight": 284
+            },
+            {
+              "alt": "A warm bowl of chickpea curry, rice and fresh herbs",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fharvest.jpg&w=750&q=75",
+              "naturalWidth": 720,
+              "naturalHeight": 1083,
+              "loaded": true,
+              "renderWidth": 720,
+              "renderHeight": 800
+            }
+          ],
+          "smallText": [
+            {
+              "text": "FIRE. FLAVOUR. FEELING.",
+              "fontSize": "8px",
+              "color": "rgb(226, 196, 164)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "GOOD FOOD.BETTER COMPANY.",
+              "fontSize": "8px",
+              "color": "rgb(214, 211, 190)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "NOT JUST A PLACE TO EAT.",
+              "fontSize": "9px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "THE SIGNATURE COLLECTION — 01 / 03",
+              "fontSize": "9px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Thoughtfully made.Impossible to forget.",
+              "fontSize": "11px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "A little char. A whole lot of soul.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Slow cooked. Worth slowing down for.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Rooted in the season. Full of life.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Concept menu · Photography shows serving inspiration.",
+              "fontSize": "9px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "ROOTED IN SOMETHING REAL",
+              "fontSize": "8px",
+              "color": "rgb(182, 190, 166)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "The best moments rarely ask for much. A warm plate. Something passed around. Someone ",
+              "fontSize": "11px",
+              "color": "rgb(182, 191, 171)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "That’s the feeling behind Ember & Table. Cooking with intention. Sharing without cere",
+              "fontSize": "11px",
+              "color": "rgb(182, 191, 171)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Slow heat. Bold flavour.A little char goes a long way.",
+              "fontSize": "11px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Thoughtful ingredients.Nothing here by accident.",
+              "fontSize": "11px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Generous plates.Always room for one more.",
+              "fontSize": "11px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "SAVE A LITTLE ROOM",
+              "fontSize": "8px",
+              "color": "rgb(183, 190, 167)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "A little comfort, wherever your table is.",
+              "fontSize": "11px",
+              "color": "rgb(184, 191, 170)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Concept restaurant. Location & hours to be announced.Sample orders for delivery or pi",
+              "fontSize": "9px",
+              "color": "rgb(164, 172, 152)",
+              "background": "rgba(0, 0, 0, 0)"
+            }
+          ]
+        },
+        {
+          "path": "/menu",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "height": 2877,
+          "images": [
+            {
+              "alt": "Golden chicken in a cast-iron skillet with creamy herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchicken.jpg&w=640&q=75",
+              "naturalWidth": 432,
+              "naturalHeight": 432,
+              "loaded": true,
+              "renderWidth": 406,
+              "renderHeight": 432
+            },
+            {
+              "alt": "Chickpea and potato curry with rice and fresh herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fharvest.jpg&w=750&q=75",
+              "naturalWidth": 431,
+              "naturalHeight": 650,
+              "loaded": true,
+              "renderWidth": 406,
+              "renderHeight": 432
+            },
+            {
+              "alt": "Seared beef with seasonal vegetables; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fsteak.jpg&w=640&q=75",
+              "naturalWidth": 432,
+              "naturalHeight": 323,
+              "loaded": true,
+              "renderWidth": 406,
+              "renderHeight": 432
+            },
+            {
+              "alt": "A colourful spread of vegetables, bread and warm cheese; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fvegetables.jpg&w=640&q=75",
+              "naturalWidth": 432,
+              "naturalHeight": 432,
+              "loaded": true,
+              "renderWidth": 406,
+              "renderHeight": 432
+            },
+            {
+              "alt": "Crisp potato stacks with poached eggs and herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fpotatoes.jpg&w=640&q=75",
+              "naturalWidth": 432,
+              "naturalHeight": 560,
+              "loaded": true,
+              "renderWidth": 406,
+              "renderHeight": 432
+            },
+            {
+              "alt": "Rich chocolate dessert; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchocolate.jpg&w=640&q=75",
+              "naturalWidth": 432,
+              "naturalHeight": 432,
+              "loaded": true,
+              "renderWidth": 406,
+              "renderHeight": 432
+            },
+            {
+              "alt": "Citrus & mint cooler",
+              "src": "http://localhost:3000/images/citrus.svg",
+              "naturalWidth": 150,
+              "naturalHeight": 150,
+              "loaded": true,
+              "renderWidth": 406,
+              "renderHeight": 432
+            }
+          ],
+          "smallText": [
+            {
+              "text": "THE EMBER & TABLE COLLECTION",
+              "fontSize": "9px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Sample menu · Serving-inspiration photography · Prices in BDT. Tell us about allergie",
+              "fontSize": "9px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "All plates",
+              "fontSize": "10px",
+              "color": "rgb(246, 240, 223)",
+              "background": "rgb(35, 41, 31)"
+            },
+            {
+              "text": "From the fire",
+              "fontSize": "10px",
+              "color": "rgb(101, 102, 87)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Small plates",
+              "fontSize": "10px",
+              "color": "rgb(101, 102, 87)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Something sweet",
+              "fontSize": "10px",
+              "color": "rgb(101, 102, 87)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "To sip",
+              "fontSize": "10px",
+              "color": "rgb(101, 102, 87)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Charred chicken, smoked pepper glaze, herb rice and a bright lemon finish.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains dairy",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Fire-kissed seasonal vegetables, chickpeas, soft grains and tahini dressing.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains sesame",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Slow-cooked beef, warm grains, roasted vegetables and our smoky house sauce.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains soy, gluten",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Creamy burrata, ripe tomatoes, basil oil and toasted sourdough.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains dairy, gluten",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Twice-cooked potatoes with rosemary, flaky salt and garlic yoghurt.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains dairy",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Warm chocolate cake, vanilla cream and a pinch of sea salt.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains dairy, eggs, gluten",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Fresh lime, orange, garden mint and sparkling water. Alcohol free.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "No listed allergens",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            }
+          ]
+        },
+        {
+          "path": "/cart",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "height": 1000,
+          "images": [
+            {
+              "alt": "Golden chicken in a cast-iron skillet with creamy herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchicken.jpg&w=128&q=75",
+              "naturalWidth": 128,
+              "naturalHeight": 128,
+              "loaded": true,
+              "renderWidth": 110,
+              "renderHeight": 110
+            },
+            {
+              "alt": "Crisp potato stacks with poached eggs and herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fpotatoes.jpg&w=128&q=75",
+              "naturalWidth": 128,
+              "naturalHeight": 166,
+              "loaded": true,
+              "renderWidth": 110,
+              "renderHeight": 110
+            }
+          ],
+          "smallText": [
+            {
+              "text": "SAVE ROOM FOR GOOD THINGS",
+              "fontSize": "9px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "BDT 680",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "BDT 260",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "YOUR TABLE, SORTED",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Delivery: BDT 60. Pickup is free.Final total calculated at checkout.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            }
+          ]
+        },
+        {
+          "path": "/checkout",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "height": 1169,
+          "images": [],
+          "smallText": [
+            {
+              "text": "ALMOST AT THE TABLE",
+              "fontSize": "9px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Delivery BDT 60",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(196, 81, 45, 0.03)"
+            },
+            {
+              "text": "Pickup Free",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Your name",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Phone number",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Delivery address",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "A note for the kitchen (optional)",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Sample platform. Do not submit sensitive information. Allergy requests need confirmat",
+              "fontSize": "11px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "ONE LAST LOOK",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "No online payment. Pay only when you receive your food.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Prices and availability are checked again by the server when you place the order.",
+              "fontSize": "11px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Place order ↗",
+              "fontSize": "11px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            }
+          ]
+        }
+      ],
+      "checks": {
+        "reveals": {
+          ".editorial-dish-0": {
+            "opacity": "1",
+            "transform": "none"
+          },
+          ".editorial-dish-1": {
+            "opacity": "1",
+            "transform": "none"
+          },
+          ".editorial-dish-2": {
+            "opacity": "1",
+            "transform": "none"
+          }
+        },
+        "smallPlatesCount": 2,
+        "searchCount": 1,
+        "persistedCartLines": 2,
+        "incrementBag": "3",
+        "cartSummary": "YOUR TABLE, SORTED\n\nA good choice.\nSubtotal\nBDT 940\n\nDelivery: BDT 60. Pickup is free.\nFinal total calculated at checkout.\n\nTo checkout ↗\nPay in cash on delivery or at pickup.",
+        "deliverySummary": "ONE LAST LOOK\n\nMade for you.\n1 × Fire-roasted chicken\nBDT 680\n1 × Crispy golden potatoes\nBDT 260\nSubtotal\nBDT 940\nDelivery\nBDT 60\nTotal\nBDT 1,000\nCash on delivery\n\nNo online payment. Pay only when you receive your food.\n\nPrices and availability are checked again by the server when you place the order.\n\nPlace order ↗\nOrders are saved immediately. No card details required.",
+        "pickupSummary": "ONE LAST LOOK\n\nMade for you.\n1 × Fire-roasted chicken\nBDT 680\n1 × Crispy golden potatoes\nBDT 260\nSubtotal\nBDT 940\nDelivery\nFree pickup\nTotal\nBDT 940\nCash at pickup\n\nNo online payment. Pay only when you receive your food.\n\nPrices and availability are checked again by the server when you place the order.\n\nPlace order ↗\nOrders are saved immediately. No card details required.",
+        "pickupAddressAbsent": true,
+        "emptySubmissionBlocked": true,
+        "phoneEightDigitsBrowserValid": true
+      }
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "pages": [
+        {
+          "path": "/",
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 5958,
+          "images": [
+            {
+              "alt": "Chefs finishing colourful plates together at an open restaurant kitchen",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fkitchen.jpg&w=1920&q=75",
+              "naturalWidth": 1559,
+              "naturalHeight": 684,
+              "loaded": true,
+              "renderWidth": 624,
+              "renderHeight": 878
+            },
+            {
+              "alt": "A golden skillet of chicken and herbs, a serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchicken.jpg&w=384&q=75",
+              "naturalWidth": 130,
+              "naturalHeight": 130,
+              "loaded": true,
+              "renderWidth": 129,
+              "renderHeight": 139
+            },
+            {
+              "alt": "Serving inspiration for Fire-roasted chicken",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchicken.jpg&w=384&q=75",
+              "naturalWidth": 343,
+              "naturalHeight": 343,
+              "loaded": true,
+              "renderWidth": 335,
+              "renderHeight": 353
+            },
+            {
+              "alt": "Serving inspiration for The ember beef bowl",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fsteak.jpg&w=384&q=75",
+              "naturalWidth": 343,
+              "naturalHeight": 256,
+              "loaded": true,
+              "renderWidth": 295,
+              "renderHeight": 311
+            },
+            {
+              "alt": "Serving inspiration for Garden harvest bowl",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fharvest.jpg&w=640&q=75",
+              "naturalWidth": 343,
+              "naturalHeight": 516,
+              "loaded": true,
+              "renderWidth": 309,
+              "renderHeight": 325
+            },
+            {
+              "alt": "Hands at work plating a meal in an open kitchen",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fkitchen.jpg&w=1920&q=75",
+              "naturalWidth": 331,
+              "naturalHeight": 145,
+              "loaded": true,
+              "renderWidth": 300,
+              "renderHeight": 335
+            },
+            {
+              "alt": "A colourful table of fresh vegetables, bread and warm cheese",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fvegetables.jpg&w=256&q=75",
+              "naturalWidth": 156,
+              "naturalHeight": 156,
+              "loaded": true,
+              "renderWidth": 158,
+              "renderHeight": 188
+            },
+            {
+              "alt": "A warm bowl of chickpea curry, rice and fresh herbs",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fharvest.jpg&w=640&q=75",
+              "naturalWidth": 390,
+              "naturalHeight": 586,
+              "loaded": true,
+              "renderWidth": 390,
+              "renderHeight": 424
+            }
+          ],
+          "smallText": [
+            {
+              "text": "FIRE. FLAVOUR. FEELING.",
+              "fontSize": "7px",
+              "color": "rgb(226, 196, 164)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Honest ingredients. A little smoke. A lot of soul.A meal to remember. A moment to sta",
+              "fontSize": "10px",
+              "color": "rgb(209, 208, 190)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "GOOD FOOD.BETTER COMPANY.",
+              "fontSize": "6px",
+              "color": "rgb(214, 211, 190)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "NOT JUST A PLACE TO EAT.",
+              "fontSize": "7px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "For the first bite. For the last conversation.For the moments that taste a little lik",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "THE SIGNATURE COLLECTION — 01 / 03",
+              "fontSize": "6px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "A little char. A whole lot of soul.",
+              "fontSize": "9px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Slow cooked. Worth slowing down for.",
+              "fontSize": "9px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Rooted in the season. Full of life.",
+              "fontSize": "9px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Concept menu · Photography shows serving inspiration.",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "ROOTED IN SOMETHING REAL",
+              "fontSize": "7px",
+              "color": "rgb(182, 190, 166)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "The best moments rarely ask for much. A warm plate. Something passed around. Someone ",
+              "fontSize": "11px",
+              "color": "rgb(182, 191, 171)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "That’s the feeling behind Ember & Table. Cooking with intention. Sharing without cere",
+              "fontSize": "11px",
+              "color": "rgb(182, 191, 171)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Slow heat. Bold flavour.A little char goes a long way.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Thoughtful ingredients.Nothing here by accident.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Generous plates.Always room for one more.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "SAVE A LITTLE ROOM",
+              "fontSize": "7px",
+              "color": "rgb(183, 190, 167)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "A little comfort, wherever your table is.",
+              "fontSize": "10px",
+              "color": "rgb(184, 191, 170)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Concept restaurant. Location & hours to be announced.Sample orders for delivery or pi",
+              "fontSize": "8px",
+              "color": "rgb(164, 172, 152)",
+              "background": "rgba(0, 0, 0, 0)"
+            }
+          ]
+        },
+        {
+          "path": "/menu",
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 4729,
+          "images": [
+            {
+              "alt": "Golden chicken in a cast-iron skillet with creamy herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchicken.jpg&w=384&q=75",
+              "naturalWidth": 350,
+              "naturalHeight": 350,
+              "loaded": true,
+              "renderWidth": 343,
+              "renderHeight": 333
+            },
+            {
+              "alt": "Chickpea and potato curry with rice and fresh herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fharvest.jpg&w=640&q=75",
+              "naturalWidth": 351,
+              "naturalHeight": 528,
+              "loaded": true,
+              "renderWidth": 343,
+              "renderHeight": 333
+            },
+            {
+              "alt": "Seared beef with seasonal vegetables; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fsteak.jpg&w=384&q=75",
+              "naturalWidth": 350,
+              "naturalHeight": 262,
+              "loaded": true,
+              "renderWidth": 343,
+              "renderHeight": 333
+            },
+            {
+              "alt": "A colourful spread of vegetables, bread and warm cheese; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fvegetables.jpg&w=384&q=75",
+              "naturalWidth": 350,
+              "naturalHeight": 350,
+              "loaded": true,
+              "renderWidth": 343,
+              "renderHeight": 333
+            },
+            {
+              "alt": "Crisp potato stacks with poached eggs and herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fpotatoes.jpg&w=384&q=75",
+              "naturalWidth": 350,
+              "naturalHeight": 455,
+              "loaded": true,
+              "renderWidth": 343,
+              "renderHeight": 333
+            },
+            {
+              "alt": "Rich chocolate dessert; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchocolate.jpg&w=384&q=75",
+              "naturalWidth": 350,
+              "naturalHeight": 350,
+              "loaded": true,
+              "renderWidth": 343,
+              "renderHeight": 333
+            },
+            {
+              "alt": "Citrus & mint cooler",
+              "src": "http://localhost:3000/images/citrus.svg",
+              "naturalWidth": 150,
+              "naturalHeight": 150,
+              "loaded": true,
+              "renderWidth": 343,
+              "renderHeight": 333
+            }
+          ],
+          "smallText": [
+            {
+              "text": "THE EMBER & TABLE COLLECTION",
+              "fontSize": "7px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "From our fire to your table. Find a favourite, or meet a new one.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Sample menu · Serving-inspiration photography · Prices in BDT. Tell us about allergie",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "All plates",
+              "fontSize": "8px",
+              "color": "rgb(246, 240, 223)",
+              "background": "rgb(35, 41, 31)"
+            },
+            {
+              "text": "From the fire",
+              "fontSize": "8px",
+              "color": "rgb(101, 102, 87)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Small plates",
+              "fontSize": "8px",
+              "color": "rgb(101, 102, 87)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Something sweet",
+              "fontSize": "8px",
+              "color": "rgb(101, 102, 87)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "To sip",
+              "fontSize": "8px",
+              "color": "rgb(101, 102, 87)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Charred chicken, smoked pepper glaze, herb rice and a bright lemon finish.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains dairy",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Fire-kissed seasonal vegetables, chickpeas, soft grains and tahini dressing.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains sesame",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Slow-cooked beef, warm grains, roasted vegetables and our smoky house sauce.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains soy, gluten",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Creamy burrata, ripe tomatoes, basil oil and toasted sourdough.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains dairy, gluten",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Twice-cooked potatoes with rosemary, flaky salt and garlic yoghurt.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains dairy",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Warm chocolate cake, vanilla cream and a pinch of sea salt.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Contains dairy, eggs, gluten",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            },
+            {
+              "text": "Fresh lime, orange, garden mint and sparkling water. Alcohol free.",
+              "fontSize": "10px",
+              "color": "rgb(102, 106, 90)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "No listed allergens",
+              "fontSize": "8px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Add to bag",
+              "fontSize": "9px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            }
+          ]
+        },
+        {
+          "path": "/cart",
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 1043,
+          "images": [
+            {
+              "alt": "Golden chicken in a cast-iron skillet with creamy herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fchicken.jpg&w=128&q=75",
+              "naturalWidth": 128,
+              "naturalHeight": 128,
+              "loaded": true,
+              "renderWidth": 78,
+              "renderHeight": 90
+            },
+            {
+              "alt": "Crisp potato stacks with poached eggs and herbs; serving inspiration",
+              "src": "http://localhost:3000/_next/image?url=%2Fphotos%2Fpotatoes.jpg&w=128&q=75",
+              "naturalWidth": 128,
+              "naturalHeight": 166,
+              "loaded": true,
+              "renderWidth": 78,
+              "renderHeight": 90
+            }
+          ],
+          "smallText": [
+            {
+              "text": "SAVE ROOM FOR GOOD THINGS",
+              "fontSize": "7px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "BDT 680",
+              "fontSize": "9px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "",
+              "fontSize": "10px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "BDT 260",
+              "fontSize": "9px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "",
+              "fontSize": "10px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "YOUR TABLE, SORTED",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Delivery: BDT 60. Pickup is free.Final total calculated at checkout.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            }
+          ]
+        },
+        {
+          "path": "/checkout",
+          "width": 390,
+          "scrollWidth": 390,
+          "height": 1750,
+          "images": [],
+          "smallText": [
+            {
+              "text": "ALMOST AT THE TABLE",
+              "fontSize": "7px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Delivery BDT 60",
+              "fontSize": "10px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(196, 81, 45, 0.03)"
+            },
+            {
+              "text": "Pickup Free",
+              "fontSize": "10px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Your name",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Phone number",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Delivery address",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "A note for the kitchen (optional)",
+              "fontSize": "11px",
+              "color": "rgb(40, 39, 31)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Sample platform. Do not submit sensitive information. Allergy requests need confirmat",
+              "fontSize": "11px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "ONE LAST LOOK",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "No online payment. Pay only when you receive your food.",
+              "fontSize": "10px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Prices and availability are checked again by the server when you place the order.",
+              "fontSize": "11px",
+              "color": "rgb(113, 111, 99)",
+              "background": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "text": "Place order ↗",
+              "fontSize": "11px",
+              "color": "rgb(255, 248, 237)",
+              "background": "rgb(185, 80, 48)"
+            }
+          ]
+        }
+      ],
+      "checks": {
+        "reveals": {
+          ".editorial-dish-0": {
+            "opacity": "1",
+            "transform": "none"
+          },
+          ".editorial-dish-1": {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          },
+          ".editorial-dish-2": {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        },
+        "mobileNavOpen": true,
+        "escapeRestoresFocus": true,
+        "smallPlatesCount": 2,
+        "searchCount": 1,
+        "persistedCartLines": 2,
+        "incrementBag": "3",
+        "cartSummary": "YOUR TABLE, SORTED\n\nA good choice.\nSubtotal\nBDT 940\n\nDelivery: BDT 60. Pickup is free.\nFinal total calculated at checkout.\n\nTo checkout ↗\nPay in cash on delivery or at pickup.",
+        "deliverySummary": "ONE LAST LOOK\n\nMade for you.\n1 × Fire-roasted chicken\nBDT 680\n1 × Crispy golden potatoes\nBDT 260\nSubtotal\nBDT 940\nDelivery\nBDT 60\nTotal\nBDT 1,000\nCash on delivery\n\nNo online payment. Pay only when you receive your food.\n\nPrices and availability are checked again by the server when you place the order.\n\nPlace order ↗\nOrders are saved immediately. No card details required.",
+        "pickupSummary": "ONE LAST LOOK\n\nMade for you.\n1 × Fire-roasted chicken\nBDT 680\n1 × Crispy golden potatoes\nBDT 260\nSubtotal\nBDT 940\nDelivery\nFree pickup\nTotal\nBDT 940\nCash at pickup\n\nNo online payment. Pay only when you receive your food.\n\nPrices and availability are checked again by the server when you place the order.\n\nPlace order ↗\nOrders are saved immediately. No card details required.",
+        "pickupAddressAbsent": true,
+        "emptySubmissionBlocked": true,
+        "phoneEightDigitsBrowserValid": true
+      }
+    }
+  ],
+  "motion": {
+    "desktop": {
+      "entryFrames": [
+        {
+          "ms": 0,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 17,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 38,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 49,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 60,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 87,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 98,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 121,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 144,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 153,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 160,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 205,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 256,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 118.664)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 268,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 94.393)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 277,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 89.1081)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 294,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 85.4164)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 311,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 78.4741)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 327,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 72.0433)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 344,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 66.2099)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 360,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 60.4774)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 119.625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 377,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 55.5048)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 115.725)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 394,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 50.4175)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 107.528)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 410,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 45.8356)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 99.7276)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 427,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 41.8003)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 92.6088)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 444,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 37.8461)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 85.4164)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 460,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 34.3017)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 78.4741)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 477,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 31.1284)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 72.4189)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 494,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 28.1571)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 66.2099)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 511,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 25.3812)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 60.4774)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 527,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 23.0269)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 55.5048)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 544,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 20.7138)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 50.4175)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 561,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 18.7642)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 46.1135)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 579,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 16.7511)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 41.5401)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 594,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 14.9312)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 37.4408)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 627,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 13.5741)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 34.3017)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 644,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 10.9328)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 28.1571)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 660,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 9.76797)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 25.3812)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 677,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 8.78081)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 23.0269)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 694,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 7.83399)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 20.7138)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 710,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 7.01056)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 18.7642)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 727,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 6.24695)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 16.8458)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 744,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 5.5409)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 15.107)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 760,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.93187)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 13.6564)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 777,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.34992)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 12.225)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 794,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.83331)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 10.9328)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 811,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.40812)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 9.83408)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 828,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.95572)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 8.71951)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 844,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.59945)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 7.83399)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 860,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.28551)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 7.01056)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 877,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.98651)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 6.24695)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 894,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.71479)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 5.5409)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 910,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.48779)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.93187)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 927,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.28176)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.34992)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 944,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.08803)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.83331)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 960,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.935435)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.40812)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 977,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.785469)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.98555)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 994,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.657894)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.59945)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1010,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.554636)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.28551)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1027,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.454194)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.98651)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1044,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.370392)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.71479)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1060,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.304076)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.48779)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1077,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.243361)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.28176)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1094,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.188931)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.08803)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1110,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.149303)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.935435)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1127,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.113937)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.785469)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1144,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0832699)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.657894)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1160,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0619875)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.554636)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1177,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.042891)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.454194)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1194,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0288622)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.370392)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1210,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.018792)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.304076)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1227,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0110273)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.243361)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1244,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00576375)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.188931)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1260,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00264263)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.14728)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1277,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0010005)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.113937)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1294,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.000206625)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0832699)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1310,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.0875e-05)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0619875)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1327,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.042891)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1344,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0288622)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1360,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.018792)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1377,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0110273)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1394,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00599213)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1410,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.002784)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1427,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0010005)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1444,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.000206625)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1460,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.0875e-05)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1477,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1494,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1510,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1527,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1544,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1560,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1577,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1594,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1610,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        }
+      ],
+      "top": {
+        ".word-window:nth-child(1)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".word-window:nth-child(2)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-backdrop": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-copy": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".hero-photo-layer": {
+          "opacity": "1",
+          "transform": "none"
+        }
+      },
+      "at400": {
+        ".word-window:nth-child(1)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".word-window:nth-child(2)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-backdrop": {
+          "opacity": "1",
+          "transform": "matrix(1.048, 0, 0, 1.048, 0, 48)"
+        },
+        ".cinema-copy": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 26)"
+        },
+        ".hero-photo-layer": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, -34)"
+        }
+      },
+      "storyBefore": {
+        ".story-photo-main": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 2.60526)"
+        },
+        ".story-photo-detail": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 3.26316)"
+        }
+      },
+      "storyAfter": {
+        ".story-photo-main": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, -13.9737)"
+        },
+        ".story-photo-detail": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 14.3158)"
+        }
+      }
+    },
+    "mobile": {
+      "entryFrames": [
+        {
+          "ms": 91,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 115,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 125,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 133,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 150,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 160,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 178,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 189,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 209,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 229,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 250,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 259,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 273,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 289,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 306,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 322,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 339,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 50.7924)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 356,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 47.1649)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 374,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 43.6458)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 389,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 40.3062)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 405,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 37.5122)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 422,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 34.4388)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 438,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 31.5934)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 455,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 29.0657)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 472,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 26.5287)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 53.8484)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 488,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 24.2827)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 51.0203)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 505,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 22.08)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 47.3819)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 522,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 20.0555)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 43.8518)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 538,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 18.2736)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 40.6976)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 555,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 16.5645)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 37.5122)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 572,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 14.9655)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 34.4388)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 588,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 13.5355)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 31.5934)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 605,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 12.2878)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 29.0657)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 622,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 11.0643)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 26.5287)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 638,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 10.0273)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 24.2827)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 656,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 9.03321)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 22.08)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 672,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 8.08478)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 19.9333)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 688,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 7.35061)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 18.2736)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 705,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 6.58423)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 16.5645)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 722,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 5.90917)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 14.9655)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 738,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 5.33238)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 13.5984)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 755,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.76301)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 12.2878)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 772,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.26472)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 11.0643)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 788,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.82947)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 10.0273)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 805,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.41234)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 9.03321)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 822,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.02665)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 8.12943)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 838,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.714)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 7.35061)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 855,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.40375)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 6.58423)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 872,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.12724)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 5.90917)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 888,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.88964)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 5.33238)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 905,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.66266)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.76301)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 922,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.46173)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.26472)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 938,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.29075)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.82947)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 955,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.12765)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.41234)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 972,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.978906)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 3.02665)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 988,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.858755)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.714)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1005,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.739775)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.40375)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1022,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.63641)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 2.12724)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1038,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.550551)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.88964)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1055,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.469436)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.66266)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1072,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.396706)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.46173)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1088,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.337238)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.29075)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1105,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.281647)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 1.12765)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1122,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.232527)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.978906)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1138,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.193149)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.858755)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1155,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.156875)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.739775)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1172,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.126847)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.63641)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1188,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.102121)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.550551)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1205,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0798083)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.469436)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1222,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0610054)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.396706)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1238,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0468384)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.337238)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1255,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0344679)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.281647)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1272,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0244912)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.232527)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1288,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0173882)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.193149)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1305,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0112445)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.156875)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1322,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00695134)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.126847)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1338,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00420018)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.102121)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1355,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00210498)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0798083)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1372,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.000905633)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0610054)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1388,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.000303509)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0468384)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1405,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.40578e-05)",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0344679)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1422,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0244912)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1438,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0173882)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1455,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.0112445)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1472,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00695134)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1488,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00420018)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1505,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.00210498)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1522,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.000905633)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1538,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 0.000303509)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1555,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "matrix(1, 0, 0, 1, 0, 4.40578e-05)",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1572,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1588,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        },
+        {
+          "ms": 1605,
+          "styles": {
+            ".word-window:nth-child(1)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".word-window:nth-child(2)>span": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-backdrop": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".cinema-copy": {
+              "transform": "none",
+              "opacity": "1"
+            },
+            ".hero-photo-layer": {
+              "transform": "none",
+              "opacity": "1"
+            }
+          }
+        }
+      ],
+      "top": {
+        ".word-window:nth-child(1)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".word-window:nth-child(2)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-backdrop": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-copy": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".hero-photo-layer": {
+          "opacity": "1",
+          "transform": "none"
+        }
+      },
+      "at400": {
+        ".word-window:nth-child(1)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".word-window:nth-child(2)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-backdrop": {
+          "opacity": "1",
+          "transform": "matrix(1.05687, 0, 0, 1.05687, 0, 56.872)"
+        },
+        ".cinema-copy": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 30.8057)"
+        },
+        ".hero-photo-layer": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, -40.2844)"
+        }
+      },
+      "storyBefore": {
+        ".story-photo-main": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 2.6331)"
+        },
+        ".story-photo-detail": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 3.2446)"
+        }
+      },
+      "storyAfter": {
+        ".story-photo-main": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, -13.9721)"
+        },
+        ".story-photo-detail": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 14.3147)"
+        }
+      }
+    },
+    "reduced": {
+      "top": {
+        ".word-window:nth-child(1)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".word-window:nth-child(2)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-backdrop": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-copy": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".hero-photo-layer": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".customer-route": {
+          "opacity": "1",
+          "transform": "none"
+        }
+      },
+      "at400": {
+        ".word-window:nth-child(1)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".word-window:nth-child(2)>span": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-backdrop": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".cinema-copy": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".hero-photo-layer": {
+          "opacity": "1",
+          "transform": "none"
+        },
+        ".customer-route": {
+          "opacity": "1",
+          "transform": "none"
+        }
+      },
+      "cardBefore": {
+        ".menu-card-image img": {
+          "opacity": "1",
+          "transform": "none"
+        }
+      },
+      "cardAfterHover": {
+        ".menu-card-image img": {
+          "opacity": "1",
+          "transform": "matrix(1.055, 0, 0, 1.055, 0, 0)"
+        }
+      }
+    }
+  },
+  "errors": [
+    {
+      "device": "desktop",
+      "type": "error",
+      "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "device": "desktop",
+      "type": "warning",
+      "message": "Image with src \"/photos/kitchen.jpg\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+    },
+    {
+      "device": "desktop",
+      "type": "warning",
+      "message": "Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"
+    },
+    {
+      "device": "desktop",
+      "type": "warning",
+      "message": "Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"
+    },
+    {
+      "device": "mobile",
+      "type": "warning",
+      "message": "Image with src \"/photos/kitchen.jpg\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"
+    },
+    {
+      "device": "mobile",
+      "type": "warning",
+      "message": "Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"
+    },
+    {
+      "device": "mobile",
+      "type": "warning",
+      "message": "Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"
+    }
+  ],
+  "orderPosts": 0
+}
