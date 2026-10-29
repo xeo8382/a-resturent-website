@@ -67,6 +67,7 @@ test("390px menu text is readable and the beef crop stays inside the card", asyn
   await page.locator(".menu-card").first().waitFor();
   for (const [selector, minimum] of [
     [".category-tabs button", 12],
+    [".food-tag", 12],
     [".menu-card-body > p", 14],
     [".menu-card-bottom .allergen-note", 12],
     [".menu-card-bottom .button", 12],

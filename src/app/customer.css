@@ -1683,6 +1683,9 @@
   .customer-site .menu-card-image {
     aspect-ratio: 1.03;
   }
+  .customer-site .food-tag {
+    font-size: 12px;
+  }
   .customer-site .menu-card-body {
     padding-top: 20px;
   }
