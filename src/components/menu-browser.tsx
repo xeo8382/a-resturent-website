@@ -3,7 +3,11 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
-import { customerPhoto } from "@/lib/customer-photos";
+import {
+  customerPhoto,
+  customerPhotoStyle,
+  customerPhotoFrameStyle,
+} from "@/lib/customer-photos";
 import { Plus, Search, ArrowUpRight } from "lucide-react";
 import type { Menu, MenuItem } from "@/lib/types";
 import { money } from "@/lib/order-rules";
@@ -28,7 +32,8 @@ export function useMenu() {
   return { menu, error };
 }
 export function AddButton({ item }: { item: MenuItem }) {
-  const { add } = useCart();
+  const { add, lines } = useCart();
+  const [announcement, setAnnouncement] = useState("");
   const [added, setAdded] = useState(false);
   useEffect(() => {
     if (!added) return;
@@ -36,25 +41,42 @@ export function AddButton({ item }: { item: MenuItem }) {
     return () => clearTimeout(timeout);
   }, [added]);
   return (
-    <button
-      className="button small"
-      disabled={!item.available}
-      onClick={() => {
-        add(item.id);
-        setAdded(true);
-      }}
-      aria-label={`Add ${item.name} to bag`}
-    >
-      {!item.available ? (
-        "Unavailable"
-      ) : added ? (
-        "Added to bag ✓"
-      ) : (
-        <>
-          Add to bag <Plus size={16} />
-        </>
-      )}
-    </button>
+    <>
+      <button
+        className="button small"
+        disabled={!item.available}
+        onClick={() => {
+          const current =
+            lines.find((line) => line.menuItemId === item.id)?.quantity ?? 0;
+          add(item.id);
+          setAnnouncement(
+            current >= 20
+              ? `${item.name} is already at the maximum quantity of 20.`
+              : `Added ${item.name} to bag. Quantity ${current + 1}.`,
+          );
+          setAdded(true);
+        }}
+        aria-label={`Add ${item.name} to bag`}
+      >
+        {!item.available ? (
+          "Unavailable"
+        ) : added ? (
+          "Added to bag ✓"
+        ) : (
+          <>
+            Add to bag <Plus size={16} aria-hidden="true" />
+          </>
+        )}
+      </button>
+      <span
+        className="sr-only"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+      >
+        {announcement}
+      </span>
+    </>
   );
 }
 export function MenuBrowser() {
@@ -121,13 +143,18 @@ export function MenuBrowser() {
             }}
           >
             <Link href={`/menu/${item.slug}`} className="menu-card-image">
-              <Image
-                src={customerPhoto(item).src}
-                alt={customerPhoto(item).alt}
-                fill
-                style={{ objectPosition: customerPhoto(item).position }}
-                sizes="(max-width: 760px) 90vw, (max-width:1100px) 44vw, 30vw"
-              />
+              <div
+                className="food-photo-frame"
+                style={customerPhotoFrameStyle(item)}
+              >
+                <Image
+                  src={customerPhoto(item).src}
+                  alt={customerPhoto(item).alt}
+                  fill
+                  style={customerPhotoStyle(item)}
+                  sizes="(max-width: 760px) 90vw, (max-width:1100px) 44vw, 30vw"
+                />
+              </div>
               <span className="menu-card-discover" aria-hidden="true">
                 <ArrowUpRight size={22} />
               </span>

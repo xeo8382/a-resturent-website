@@ -1,6 +1,7 @@
 "use client";
 import { useState, useRef } from "react";
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useCart } from "./providers";
 import { useMenu } from "./menu-browser";
@@ -27,7 +28,7 @@ export function CheckoutForm() {
       <div className="empty-state">
         <p>Your bag is empty.</p>
         <Link className="button" href="/menu">
-          Explore the menu ↗
+          Explore the menu <ArrowUpRight size={16} aria-hidden="true" />
         </Link>
       </div>
     );
@@ -249,7 +250,13 @@ export function CheckoutForm() {
           disabled={busy || invalid}
           type="submit"
         >
-          {busy ? "Placing your order…" : "Place order ↗"}
+          {busy ? (
+            "Placing your order…"
+          ) : (
+            <>
+              Place order <ArrowUpRight size={16} aria-hidden="true" />
+            </>
+          )}
         </button>
         <small>Orders are saved immediately. No card details required.</small>
       </aside>

@@ -1,10 +1,14 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { Minus, Plus, Trash2 } from "lucide-react";
+import { Minus, Plus, Trash2, ArrowUpRight, ArrowLeft } from "lucide-react";
 import { useCart } from "./providers";
 import { useMenu } from "./menu-browser";
-import { customerPhoto } from "@/lib/customer-photos";
+import {
+  customerPhoto,
+  customerPhotoStyle,
+  customerPhotoFrameStyle,
+} from "@/lib/customer-photos";
 import { money } from "@/lib/order-rules";
 export function CartView() {
   const { lines, ready, setQuantity } = useCart();
@@ -22,7 +26,7 @@ export function CartView() {
         <h2>A little room for something good.</h2>
         <p>Your bag is empty. Let’s fix that.</p>
         <Link href="/menu" className="button">
-          Explore the menu ↗
+          Explore the menu <ArrowUpRight size={16} aria-hidden="true" />
         </Link>
       </div>
     );
@@ -44,12 +48,20 @@ export function CartView() {
           return (
             <article className="cart-line" key={line.menuItemId}>
               {item && (
-                <Image
-                  src={customerPhoto(item).src}
-                  alt={customerPhoto(item).alt}
-                  width={120}
-                  height={120}
-                />
+                <span className="cart-photo">
+                  <span
+                    className="food-photo-frame"
+                    style={customerPhotoFrameStyle(item)}
+                  >
+                    <Image
+                      src={customerPhoto(item).src}
+                      alt={customerPhoto(item).alt}
+                      fill
+                      sizes="110px"
+                      style={customerPhotoStyle(item)}
+                    />
+                  </span>
+                </span>
               )}
               <div className="cart-line-info">
                 <h2>{item?.name ?? "Removed menu item"}</h2>
@@ -93,7 +105,7 @@ export function CartView() {
           );
         })}
         <Link className="text-link" href="/menu">
-          ← Find a little more
+          <ArrowLeft size={15} aria-hidden="true" /> Find a little more
         </Link>
       </div>
       <aside className="summary">
@@ -114,7 +126,7 @@ export function CartView() {
           </p>
         ) : (
           <Link href="/checkout" className="button wide">
-            To checkout ↗
+            To checkout <ArrowUpRight size={16} aria-hidden="true" />
           </Link>
         )}
         <small>Pay in cash on delivery or at pickup.</small>

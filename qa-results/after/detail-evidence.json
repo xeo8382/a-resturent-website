@@ -1,0 +1,2674 @@
+{
+  "networkErrors": [],
+  "motion": {
+    "revealSamples": [
+      {
+        "ms": 14,
+        "cards": [
+          {
+            "opacity": "0.0704626",
+            "transform": "matrix(1, 0, 0, 1, 0, 29.6907)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 30,
+        "cards": [
+          {
+            "opacity": "0.160089",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.7605)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 47,
+        "cards": [
+          {
+            "opacity": "0.244936",
+            "transform": "matrix(1, 0, 0, 1, 0, 23.991)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 63,
+        "cards": [
+          {
+            "opacity": "0.324081",
+            "transform": "matrix(1, 0, 0, 1, 0, 21.5634)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 80,
+        "cards": [
+          {
+            "opacity": "0.39812",
+            "transform": "matrix(1, 0, 0, 1, 0, 19.1717)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 97,
+        "cards": [
+          {
+            "opacity": "0.465939",
+            "transform": "matrix(1, 0, 0, 1, 0, 17.0868)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 113,
+        "cards": [
+          {
+            "opacity": "0.528271",
+            "transform": "matrix(1, 0, 0, 1, 0, 15.0452)"
+          },
+          {
+            "opacity": "0.0704626",
+            "transform": "matrix(1, 0, 0, 1, 0, 29.6907)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 130,
+        "cards": [
+          {
+            "opacity": "0.584747",
+            "transform": "matrix(1, 0, 0, 1, 0, 13.225)"
+          },
+          {
+            "opacity": "0.160089",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.7605)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 147,
+        "cards": [
+          {
+            "opacity": "0.635552",
+            "transform": "matrix(1, 0, 0, 1, 0, 11.6533)"
+          },
+          {
+            "opacity": "0.244936",
+            "transform": "matrix(1, 0, 0, 1, 0, 24.1461)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 164,
+        "cards": [
+          {
+            "opacity": "0.680714",
+            "transform": "matrix(1, 0, 0, 1, 0, 10.1894)"
+          },
+          {
+            "opacity": "0.324081",
+            "transform": "matrix(1, 0, 0, 1, 0, 21.5634)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 180,
+        "cards": [
+          {
+            "opacity": "0.721135",
+            "transform": "matrix(1, 0, 0, 1, 0, 8.87344)"
+          },
+          {
+            "opacity": "0.39812",
+            "transform": "matrix(1, 0, 0, 1, 0, 19.1717)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 197,
+        "cards": [
+          {
+            "opacity": "0.75673",
+            "transform": "matrix(1, 0, 0, 1, 0, 7.71222)"
+          },
+          {
+            "opacity": "0.465939",
+            "transform": "matrix(1, 0, 0, 1, 0, 16.9637)"
+          },
+          {
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 32)"
+          }
+        ]
+      },
+      {
+        "ms": 214,
+        "cards": [
+          {
+            "opacity": "0.788344",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.68998)"
+          },
+          {
+            "opacity": "0.528271",
+            "transform": "matrix(1, 0, 0, 1, 0, 14.9321)"
+          },
+          {
+            "opacity": "0.0704626",
+            "transform": "matrix(1, 0, 0, 1, 0, 29.5127)"
+          }
+        ]
+      },
+      {
+        "ms": 230,
+        "cards": [
+          {
+            "opacity": "0.816013",
+            "transform": "matrix(1, 0, 0, 1, 0, 5.85247)"
+          },
+          {
+            "opacity": "0.584426",
+            "transform": "matrix(1, 0, 0, 1, 0, 13.225)"
+          },
+          {
+            "opacity": "0.159566",
+            "transform": "matrix(1, 0, 0, 1, 0, 26.7605)"
+          }
+        ]
+      },
+      {
+        "ms": 247,
+        "cards": [
+          {
+            "opacity": "0.840469",
+            "transform": "matrix(1, 0, 0, 1, 0, 5.10171)"
+          },
+          {
+            "opacity": "0.635264",
+            "transform": "matrix(1, 0, 0, 1, 0, 11.6533)"
+          },
+          {
+            "opacity": "0.244444",
+            "transform": "matrix(1, 0, 0, 1, 0, 24.1461)"
+          }
+        ]
+      },
+      {
+        "ms": 263,
+        "cards": [
+          {
+            "opacity": "0.861913",
+            "transform": "matrix(1, 0, 0, 1, 0, 4.40556)"
+          },
+          {
+            "opacity": "0.680714",
+            "transform": "matrix(1, 0, 0, 1, 0, 10.1894)"
+          },
+          {
+            "opacity": "0.324081",
+            "transform": "matrix(1, 0, 0, 1, 0, 21.5634)"
+          }
+        ]
+      },
+      {
+        "ms": 280,
+        "cards": [
+          {
+            "opacity": "0.88069",
+            "transform": "matrix(1, 0, 0, 1, 0, 3.79841)"
+          },
+          {
+            "opacity": "0.721135",
+            "transform": "matrix(1, 0, 0, 1, 0, 8.87344)"
+          },
+          {
+            "opacity": "0.39812",
+            "transform": "matrix(1, 0, 0, 1, 0, 19.1717)"
+          }
+        ]
+      },
+      {
+        "ms": 297,
+        "cards": [
+          {
+            "opacity": "0.89702",
+            "transform": "matrix(1, 0, 0, 1, 0, 3.25998)"
+          },
+          {
+            "opacity": "0.75673",
+            "transform": "matrix(1, 0, 0, 1, 0, 7.71222)"
+          },
+          {
+            "opacity": "0.465939",
+            "transform": "matrix(1, 0, 0, 1, 0, 16.9637)"
+          }
+        ]
+      },
+      {
+        "ms": 314,
+        "cards": [
+          {
+            "opacity": "0.911381",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.82118)"
+          },
+          {
+            "opacity": "0.788344",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.75625)"
+          },
+          {
+            "opacity": "0.528271",
+            "transform": "matrix(1, 0, 0, 1, 0, 15.0452)"
+          }
+        ]
+      },
+      {
+        "ms": 330,
+        "cards": [
+          {
+            "opacity": "0.923846",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.41525)"
+          },
+          {
+            "opacity": "0.816013",
+            "transform": "matrix(1, 0, 0, 1, 0, 5.85247)"
+          },
+          {
+            "opacity": "0.584426",
+            "transform": "matrix(1, 0, 0, 1, 0, 13.225)"
+          }
+        ]
+      },
+      {
+        "ms": 347,
+        "cards": [
+          {
+            "opacity": "0.934786",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.08801)"
+          },
+          {
+            "opacity": "0.840469",
+            "transform": "matrix(1, 0, 0, 1, 0, 5.10171)"
+          },
+          {
+            "opacity": "0.635264",
+            "transform": "matrix(1, 0, 0, 1, 0, 11.6533)"
+          }
+        ]
+      },
+      {
+        "ms": 364,
+        "cards": [
+          {
+            "opacity": "0.944314",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.77806)"
+          },
+          {
+            "opacity": "0.861913",
+            "transform": "matrix(1, 0, 0, 1, 0, 4.40556)"
+          },
+          {
+            "opacity": "0.680714",
+            "transform": "matrix(1, 0, 0, 1, 0, 10.1894)"
+          }
+        ]
+      },
+      {
+        "ms": 380,
+        "cards": [
+          {
+            "opacity": "0.952604",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.50652)"
+          },
+          {
+            "opacity": "0.88069",
+            "transform": "matrix(1, 0, 0, 1, 0, 3.79841)"
+          },
+          {
+            "opacity": "0.721135",
+            "transform": "matrix(1, 0, 0, 1, 0, 8.87344)"
+          }
+        ]
+      },
+      {
+        "ms": 397,
+        "cards": [
+          {
+            "opacity": "0.959764",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.27504)"
+          },
+          {
+            "opacity": "0.89702",
+            "transform": "matrix(1, 0, 0, 1, 0, 3.25998)"
+          },
+          {
+            "opacity": "0.75673",
+            "transform": "matrix(1, 0, 0, 1, 0, 7.71222)"
+          }
+        ]
+      },
+      {
+        "ms": 414,
+        "cards": [
+          {
+            "opacity": "0.966014",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.07344)"
+          },
+          {
+            "opacity": "0.911381",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.80265)"
+          },
+          {
+            "opacity": "0.788344",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.68998)"
+          }
+        ]
+      },
+      {
+        "ms": 430,
+        "cards": [
+          {
+            "opacity": "0.971422",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.907314)"
+          },
+          {
+            "opacity": "0.923916",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.41525)"
+          },
+          {
+            "opacity": "0.816169",
+            "transform": "matrix(1, 0, 0, 1, 0, 5.85247)"
+          }
+        ]
+      },
+      {
+        "ms": 450,
+        "cards": [
+          {
+            "opacity": "0.976091",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.740087)"
+          },
+          {
+            "opacity": "0.934847",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.02782)"
+          },
+          {
+            "opacity": "0.840607",
+            "transform": "matrix(1, 0, 0, 1, 0, 4.96513)"
+          }
+        ]
+      },
+      {
+        "ms": 463,
+        "cards": [
+          {
+            "opacity": "0.980089",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.635133)"
+          },
+          {
+            "opacity": "0.944314",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.77806)"
+          },
+          {
+            "opacity": "0.861913",
+            "transform": "matrix(1, 0, 0, 1, 0, 4.40556)"
+          }
+        ]
+      },
+      {
+        "ms": 480,
+        "cards": [
+          {
+            "opacity": "0.983523",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.522296)"
+          },
+          {
+            "opacity": "0.952558",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.50652)"
+          },
+          {
+            "opacity": "0.880585",
+            "transform": "matrix(1, 0, 0, 1, 0, 3.79841)"
+          }
+        ]
+      },
+      {
+        "ms": 497,
+        "cards": [
+          {
+            "opacity": "0.986478",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.431603)"
+          },
+          {
+            "opacity": "0.959764",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.28601)"
+          },
+          {
+            "opacity": "0.89702",
+            "transform": "matrix(1, 0, 0, 1, 0, 3.29075)"
+          }
+        ]
+      },
+      {
+        "ms": 514,
+        "cards": [
+          {
+            "opacity": "0.988994",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.349753)"
+          },
+          {
+            "opacity": "0.966014",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.08322)"
+          },
+          {
+            "opacity": "0.911381",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.82118)"
+          }
+        ]
+      },
+      {
+        "ms": 530,
+        "cards": [
+          {
+            "opacity": "0.991124",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.280957)"
+          },
+          {
+            "opacity": "0.971422",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.907314)"
+          },
+          {
+            "opacity": "0.923916",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.41525)"
+          }
+        ]
+      },
+      {
+        "ms": 547,
+        "cards": [
+          {
+            "opacity": "0.992918",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.226984)"
+          },
+          {
+            "opacity": "0.976091",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.763153)"
+          },
+          {
+            "opacity": "0.934847",
+            "transform": "matrix(1, 0, 0, 1, 0, 2.08801)"
+          }
+        ]
+      },
+      {
+        "ms": 563,
+        "cards": [
+          {
+            "opacity": "0.99441",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.177453)"
+          },
+          {
+            "opacity": "0.980089",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.635133)"
+          },
+          {
+            "opacity": "0.944314",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.77806)"
+          }
+        ]
+      },
+      {
+        "ms": 580,
+        "cards": [
+          {
+            "opacity": "0.995649",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.136941)"
+          },
+          {
+            "opacity": "0.983523",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.522296)"
+          },
+          {
+            "opacity": "0.952558",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.50652)"
+          }
+        ]
+      },
+      {
+        "ms": 597,
+        "cards": [
+          {
+            "opacity": "0.996679",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.106217)"
+          },
+          {
+            "opacity": "0.986494",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.431603)"
+          },
+          {
+            "opacity": "0.959804",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.28601)"
+          }
+        ]
+      },
+      {
+        "ms": 613,
+        "cards": [
+          {
+            "opacity": "0.997501",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0796066)"
+          },
+          {
+            "opacity": "0.98898",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.349753)"
+          },
+          {
+            "opacity": "0.965979",
+            "transform": "matrix(1, 0, 0, 1, 0, 1.08322)"
+          }
+        ]
+      },
+      {
+        "ms": 630,
+        "cards": [
+          {
+            "opacity": "0.998169",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0578591)"
+          },
+          {
+            "opacity": "0.991113",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.280957)"
+          },
+          {
+            "opacity": "0.971392",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.907314)"
+          }
+        ]
+      },
+      {
+        "ms": 648,
+        "cards": [
+          {
+            "opacity": "0.998696",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0410345)"
+          },
+          {
+            "opacity": "0.992908",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.22354)"
+          },
+          {
+            "opacity": "0.976065",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.755412)"
+          }
+        ]
+      },
+      {
+        "ms": 664,
+        "cards": [
+          {
+            "opacity": "0.999103",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0282649)"
+          },
+          {
+            "opacity": "0.99441",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.177453)"
+          },
+          {
+            "opacity": "0.980089",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.635133)"
+          }
+        ]
+      },
+      {
+        "ms": 681,
+        "cards": [
+          {
+            "opacity": "0.999408",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0184643)"
+          },
+          {
+            "opacity": "0.995649",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.136941)"
+          },
+          {
+            "opacity": "0.983523",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.522296)"
+          }
+        ]
+      },
+      {
+        "ms": 697,
+        "cards": [
+          {
+            "opacity": "0.999632",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0117131)"
+          },
+          {
+            "opacity": "0.996673",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.106217)"
+          },
+          {
+            "opacity": "0.986478",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.431603)"
+          }
+        ]
+      },
+      {
+        "ms": 713,
+        "cards": [
+          {
+            "opacity": "0.999788",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0066817)"
+          },
+          {
+            "opacity": "0.997505",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0796066)"
+          },
+          {
+            "opacity": "0.988994",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.349753)"
+          }
+        ]
+      },
+      {
+        "ms": 730,
+        "cards": [
+          {
+            "opacity": "0.99989",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0033476)"
+          },
+          {
+            "opacity": "0.998169",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0578591)"
+          },
+          {
+            "opacity": "0.991113",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.280957)"
+          }
+        ]
+      },
+      {
+        "ms": 747,
+        "cards": [
+          {
+            "opacity": "0.999953",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0015403)"
+          },
+          {
+            "opacity": "0.998699",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0415903)"
+          },
+          {
+            "opacity": "0.992918",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.226984)"
+          }
+        ]
+      },
+      {
+        "ms": 763,
+        "cards": [
+          {
+            "opacity": "0.999985",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0004797)"
+          },
+          {
+            "opacity": "0.999103",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0282649)"
+          },
+          {
+            "opacity": "0.99441",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.177453)"
+          }
+        ]
+      },
+      {
+        "ms": 780,
+        "cards": [
+          {
+            "opacity": "0.999997",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.93e-05)"
+          },
+          {
+            "opacity": "0.999408",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0184643)"
+          },
+          {
+            "opacity": "0.995649",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.136941)"
+          }
+        ]
+      },
+      {
+        "ms": 797,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.19795e-07)"
+          },
+          {
+            "opacity": "0.999632",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0117131)"
+          },
+          {
+            "opacity": "0.996673",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.106217)"
+          }
+        ]
+      },
+      {
+        "ms": 813,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999787",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0066817)"
+          },
+          {
+            "opacity": "0.997501",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0796066)"
+          }
+        ]
+      },
+      {
+        "ms": 830,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.99989",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0033476)"
+          },
+          {
+            "opacity": "0.998169",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0578591)"
+          }
+        ]
+      },
+      {
+        "ms": 847,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999952",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0015403)"
+          },
+          {
+            "opacity": "0.998696",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0415903)"
+          }
+        ]
+      },
+      {
+        "ms": 863,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999985",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0004797)"
+          },
+          {
+            "opacity": "0.999103",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0282649)"
+          }
+        ]
+      },
+      {
+        "ms": 880,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999997",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.93e-05)"
+          },
+          {
+            "opacity": "0.999409",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0184643)"
+          }
+        ]
+      },
+      {
+        "ms": 897,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.19795e-07)"
+          },
+          {
+            "opacity": "0.999632",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0117131)"
+          }
+        ]
+      },
+      {
+        "ms": 913,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999787",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0066817)"
+          }
+        ]
+      },
+      {
+        "ms": 930,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999891",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0033476)"
+          }
+        ]
+      },
+      {
+        "ms": 947,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999952",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0015403)"
+          }
+        ]
+      },
+      {
+        "ms": 963,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999985",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0004797)"
+          }
+        ]
+      },
+      {
+        "ms": 980,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "0.999997",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.93e-05)"
+          }
+        ]
+      },
+      {
+        "ms": 997,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 6.19795e-07)"
+          }
+        ]
+      },
+      {
+        "ms": 1013,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "ms": 1030,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "ms": 1046,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "ms": 1063,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "ms": 1080,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "ms": 1097,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "ms": 1113,
+        "cards": [
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    ],
+    "filterSamples": [
+      {
+        "ms": 6,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 627.828)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 662.148)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 23,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 587.959)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 662.148)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 39,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 551.133)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 644.863)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 56,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 513.756)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 604.112)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 73,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 477.043)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 564.98)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 89,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 441.433)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 526.755)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 106,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 408.748)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 491.844)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 123,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 375.331)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 456.044)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 139,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 342.469)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 420.99)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 156,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 312.896)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 388.765)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 173,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 282.491)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 356.029)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 189,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 252.928)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 324.043)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 206,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 226.253)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 295.008)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 223,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 199.34)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 264.791)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 239,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 173.755)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 236.48)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 256,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 150.459)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 210.19)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 273,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 127.473)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 184.225)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 289,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 106.937)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 160.499)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 306,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 87.0748)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 136.997)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 323,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 68.5224)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 114.393)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 339,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 52.6499)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 95.0458)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 356,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 37.8577)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 75.7955)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 373,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 25.2489)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 58.3258)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 390,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 14.8369)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 42.8081)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 406,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 7.37951)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 30.2807)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 423,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 2.11045)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 18.8381)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 439,
+        "cards": [
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.0265752)",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 9.9392)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 456,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 3.93027)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 473,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "matrix(1, 0, 0, 1, 0, 0.494953)",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 489,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 506,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 523,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 539,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 556,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 575,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 589,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 606,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 622,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 639,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 656,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 672,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 689,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 706,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 722,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 739,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 756,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 772,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 789,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "ms": 806,
+        "cards": [
+          {
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      }
+    ],
+    "routeSamples": [
+      {
+        "ms": 4,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 20,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 36,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 53,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 69,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 87,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 103,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 119,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 138,
+        "path": "/menu",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 159,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "ms": 169,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 10)"
+      },
+      {
+        "ms": 186,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.246344",
+        "transform": "matrix(1, 0, 0, 1, 0, 9.04346)"
+      },
+      {
+        "ms": 203,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.393788",
+        "transform": "matrix(1, 0, 0, 1, 0, 7.47305)"
+      },
+      {
+        "ms": 219,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.518611",
+        "transform": "matrix(1, 0, 0, 1, 0, 5.99115)"
+      },
+      {
+        "ms": 236,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.623041",
+        "transform": "matrix(1, 0, 0, 1, 0, 4.79076)"
+      },
+      {
+        "ms": 253,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.707246",
+        "transform": "matrix(1, 0, 0, 1, 0, 3.73962)"
+      },
+      {
+        "ms": 270,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.77472",
+        "transform": "matrix(1, 0, 0, 1, 0, 2.8802)"
+      },
+      {
+        "ms": 286,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.827484",
+        "transform": "matrix(1, 0, 0, 1, 0, 2.2062)"
+      },
+      {
+        "ms": 303,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.869134",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.7044)"
+      },
+      {
+        "ms": 319,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.901066",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.28885)"
+      },
+      {
+        "ms": 336,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.925917",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.983999)"
+      },
+      {
+        "ms": 353,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.944955",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.734028)"
+      },
+      {
+        "ms": 369,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.959651",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.540847)"
+      },
+      {
+        "ms": 386,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.970854",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.378293)"
+      },
+      {
+        "ms": 403,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.979283",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.287641)"
+      },
+      {
+        "ms": 419,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.985635",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.202805)"
+      },
+      {
+        "ms": 436,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.990297",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.139068)"
+      },
+      {
+        "ms": 453,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.993697",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0954947)"
+      },
+      {
+        "ms": 469,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.996097",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0611456)"
+      },
+      {
+        "ms": 486,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.997734",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0386859)"
+      },
+      {
+        "ms": 503,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.998799",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0222834)"
+      },
+      {
+        "ms": 519,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.999441",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0116506)"
+      },
+      {
+        "ms": 536,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.999791",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0054708)"
+      },
+      {
+        "ms": 553,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.999949",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0019866)"
+      },
+      {
+        "ms": 569,
+        "path": "/menu/dark-chocolate",
+        "opacity": "0.999996",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0004622)"
+      },
+      {
+        "ms": 586,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 3.3e-05)"
+      },
+      {
+        "ms": 603,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 619,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 636,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 653,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 669,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 686,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 702,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 719,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 736,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 753,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 769,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 786,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 803,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 819,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 836,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 853,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 869,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 886,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 902,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 919,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 936,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 953,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 969,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 986,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1003,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1019,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1036,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1053,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1069,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1086,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1103,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1119,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1136,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1153,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1169,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1186,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1203,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1219,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1236,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1252,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1269,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1286,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1303,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1319,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1336,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1353,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1369,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1386,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1403,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1419,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1436,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1453,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1469,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1486,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1502,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1519,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1536,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1553,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1569,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1586,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1603,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1619,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1636,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1652,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1669,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1686,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1703,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1719,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1736,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1752,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1769,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1786,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1803,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1819,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1836,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1852,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1869,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1886,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1902,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1919,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1936,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1953,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1969,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 1986,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2002,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2019,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2036,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2053,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2069,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2086,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2102,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2119,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2136,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2152,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2169,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2186,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "ms": 2203,
+        "path": "/menu/dark-chocolate",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ]
+  },
+  "kitchenImages": [
+    {
+      "loading": "auto",
+      "fetchPriority": "auto",
+      "width": 1728,
+      "currentSrc": "http://localhost:3000/_next/image?url=%2Fphotos%2Fkitchen.jpg&w=1920&q=75"
+    },
+    {
+      "loading": "lazy",
+      "fetchPriority": "auto",
+      "width": 0,
+      "currentSrc": ""
+    }
+  ],
+  "faviconStatus": 200,
+  "cartAnnouncement": {
+    "ariaLabel": "Add Fire-roasted chicken to bag",
+    "visibleText": "Added to bag ✓",
+    "liveRegions": [
+      {
+        "tag": "SPAN",
+        "role": "status",
+        "live": "polite",
+        "text": "Added Fire-roasted chicken to bag. Quantity 1."
+      },
+      {
+        "tag": "SPAN",
+        "role": "status",
+        "live": "polite",
+        "text": ""
+      },
+      {
+        "tag": "SPAN",
+        "role": "status",
+        "live": "polite",
+        "text": ""
+      },
+      {
+        "tag": "SPAN",
+        "role": "status",
+        "live": "polite",
+        "text": ""
+      },
+      {
+        "tag": "SPAN",
+        "role": "status",
+        "live": "polite",
+        "text": ""
+      },
+      {
+        "tag": "SPAN",
+        "role": "status",
+        "live": "polite",
+        "text": ""
+      },
+      {
+        "tag": "SPAN",
+        "role": "status",
+        "live": "polite",
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "role": "alert",
+        "live": "assertive",
+        "text": ""
+      }
+    ]
+  },
+  "textContrast": [
+    {
+      "text": "YOUR TABLE, SORTED",
+      "color": "rgb(83, 85, 72)",
+      "background": "rgb(230, 226, 213)",
+      "fontSize": "10px"
+    },
+    {
+      "text": "Delivery: BDT 60. Pickup is free.Final total calculated at checkout.",
+      "color": "rgb(83, 85, 72)",
+      "background": "rgb(230, 226, 213)",
+      "fontSize": "10px"
+    },
+    {
+      "text": "Pay in cash on delivery or at pickup.",
+      "color": "rgb(83, 85, 72)",
+      "background": "rgb(230, 226, 213)",
+      "fontSize": "10px"
+    }
+  ]
+}

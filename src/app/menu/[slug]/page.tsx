@@ -4,7 +4,11 @@ import Image from "next/image";
 import { db } from "@/lib/db";
 import { money } from "@/lib/order-rules";
 import { AddButton } from "@/components/menu-browser";
-import { customerPhoto } from "@/lib/customer-photos";
+import {
+  customerPhoto,
+  customerPhotoStyle,
+  customerPhotoFrameStyle,
+} from "@/lib/customer-photos";
 import { Reveal } from "@/components/reveal";
 import { Footer } from "@/components/footer";
 export const dynamic = "force-dynamic";
@@ -27,14 +31,19 @@ export default async function FoodDetail({
         </Link>
         <div className="food-detail">
           <Reveal className="detail-art">
-            <Image
-              src={customerPhoto(item).src}
-              alt={customerPhoto(item).alt}
-              fill
-              sizes="(max-width: 760px) 88vw, 48vw"
-              style={{ objectPosition: customerPhoto(item).position }}
-              priority
-            />
+            <div
+              className="food-photo-frame"
+              style={customerPhotoFrameStyle(item)}
+            >
+              <Image
+                src={customerPhoto(item).src}
+                alt={customerPhoto(item).alt}
+                fill
+                sizes="(max-width: 760px) 88vw, 48vw"
+                style={customerPhotoStyle(item)}
+                priority
+              />
+            </div>
           </Reveal>
           <Reveal>
             <p className="eyebrow">{item.category.name} · SAMPLE DISH</p>

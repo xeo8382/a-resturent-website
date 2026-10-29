@@ -15,6 +15,10 @@ import {
   Leaf,
   UtensilsCrossed,
 } from "lucide-react";
+import {
+  customerPhotoStyle,
+  customerPhotoFrameStyle,
+} from "@/lib/customer-photos";
 import { Reveal } from "./reveal";
 const dishes = [
   {
@@ -217,12 +221,26 @@ export function CinematicHome() {
             >
               <Link href={`/menu/${dish.slug}`} className="editorial-dish">
                 <div className={`editorial-dish-image ${dish.className}`}>
-                  <Image
-                    src={`/photos/${dish.image}.jpg`}
-                    alt={`Serving inspiration for ${dish.name}`}
-                    fill
-                    sizes="(max-width:760px) 88vw, 32vw"
-                  />
+                  <div
+                    className="food-photo-frame"
+                    style={customerPhotoFrameStyle({
+                      slug: dish.slug,
+                      image: `/photos/${dish.image}.jpg`,
+                      name: dish.name,
+                    })}
+                  >
+                    <Image
+                      src={`/photos/${dish.image}.jpg`}
+                      style={customerPhotoStyle({
+                        slug: dish.slug,
+                        image: `/photos/${dish.image}.jpg`,
+                        name: dish.name,
+                      })}
+                      alt={`Serving inspiration for ${dish.name}`}
+                      fill
+                      sizes="(max-width:760px) 88vw, 32vw"
+                    />
+                  </div>
                   <span className="editorial-dish-tag">{dish.category}</span>
                   <span className="editorial-dish-action">
                     <ArrowUpRight size={24} />

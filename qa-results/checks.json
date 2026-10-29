@@ -1,0 +1,27 @@
+{
+  "lint": "passed",
+  "typecheck": "passed",
+  "build": "passed",
+  "unit": {
+    "passed": 22
+  },
+  "postgresIntegration": {
+    "passed": 7
+  },
+  "browserSuite": {
+    "passed": 11
+  },
+  "contrastBefore": 3.9,
+  "contrastAfter": 5.87,
+  "fixes": [
+    "QA-01",
+    "QA-02",
+    "QA-03",
+    "QA-04",
+    "QA-05",
+    "QA-06",
+    "QA-07",
+    "QA-08"
+  ],
+  "deployed": false
+}

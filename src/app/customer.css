@@ -962,6 +962,7 @@
   align-items: center;
 }
 .customer-site .menu-card-bottom .allergen-note {
+  color: #535548;
   font-size: 8px;
   line-height: 1.6;
 }
@@ -1012,6 +1013,7 @@
   margin-top: 22px;
 }
 .customer-site .summary {
+  --muted: #535548;
   background: #e6e2d5;
   border-radius: 0;
   border-color: #d2cebe;
@@ -1643,6 +1645,17 @@
   .customer-site .menu-page-heading {
     padding-top: 20px;
   }
+  .customer-site .menu-page-heading .eyebrow {
+    font-size: 11px;
+  }
+  .customer-site .menu-page-heading > p:not(.eyebrow) {
+    font-size: 14px;
+  }
+  .customer-site .menu-page-heading .sample-note {
+    font-size: 12px !important;
+    color: #535548;
+  }
+
   .customer-site .menu-toolbar {
     gap: 22px;
     margin-bottom: 30px;
@@ -1651,7 +1664,7 @@
     gap: 2px;
   }
   .customer-site .category-tabs button {
-    font-size: 8px;
+    font-size: 12px;
     padding: 10px 11px;
     min-height: 42px;
   }
@@ -1660,7 +1673,7 @@
     min-width: 0;
   }
   .customer-site .search input {
-    font-size: 10px;
+    font-size: 16px;
     padding: 9px 0;
   }
   .customer-site .menu-grid {
@@ -1678,23 +1691,25 @@
     margin-bottom: 12px;
   }
   .customer-site .menu-card .dish-title > span {
-    font-size: 10px;
+    font-size: 12px;
   }
   .customer-site .menu-card-body > p {
-    font-size: 10px;
+    font-size: 14px;
     min-height: 0;
     margin-bottom: 18px;
     line-height: 1.8;
   }
   .customer-site .menu-card-bottom {
+    flex-wrap: wrap;
+    gap: 14px;
     padding-top: 15px;
   }
   .customer-site .menu-card-bottom .allergen-note {
-    font-size: 8px;
-    max-width: 55%;
+    font-size: 12px;
+    max-width: 100%;
   }
   .customer-site .menu-card-bottom .button {
-    font-size: 9px;
+    font-size: 12px;
     min-height: 44px;
     padding: 12px 16px;
   }
@@ -1724,7 +1739,8 @@
     font-size: 7px;
   }
   .customer-site .food-detail .allergen-note {
-    font-size: 9px;
+    color: #535548;
+    font-size: 12px;
     margin-bottom: 20px;
   }
   .customer-site .food-detail .sample-note {
@@ -1795,6 +1811,14 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .customer-site .editorial-dish-image img,
+  .customer-site .menu-card-image img,
+  .customer-site .detail-art img,
+  .customer-site .button,
+  .customer-site .button svg,
+  .customer-site .scroll-circle {
+    transform: none !important;
+  }
   .customer-site .cinema-backdrop,
   .customer-site .cinema-copy,
   .customer-site .hero-photo-layer,
@@ -1831,4 +1855,29 @@
 }
 .customer-site .cinema-story-link svg {
   flex-shrink: 0;
+}
+
+.customer-site .food-photo-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.customer-site .cart-photo {
+  position: relative;
+  flex-shrink: 0;
+  display: block;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  background: #e8e6d9;
+}
+.customer-site .cart-photo img {
+  object-fit: cover;
+}
+@media (max-width: 760px) {
+  .customer-site .cart-photo {
+    width: 78px;
+    height: 90px;
+  }
 }
