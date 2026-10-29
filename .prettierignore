@@ -1,0 +1,6 @@
+.next
+node_modules
+public/images
+package-lock.json
+playwright-report
+test-results
