@@ -1,0 +1,22 @@
+{
+  "recordedUnchangedFiles": [
+    "src/app/customer.css",
+    "src/components/cinematic-home.tsx",
+    "src/components/reveal.tsx",
+    "src/components/customer-frame.tsx",
+    "src/components/header.tsx",
+    "src/components/footer.tsx",
+    "src/components/menu-browser.tsx",
+    "src/components/providers.tsx",
+    "src/components/cart-view.tsx",
+    "src/components/checkout-form.tsx",
+    "src/app/layout.tsx",
+    "src/app/api/orders/route.ts",
+    "src/lib/auth.ts",
+    "src/lib/order-rules.ts",
+    "src/lib/validation.ts",
+    "src/lib/orders.ts"
+  ],
+  "changedFiles": [],
+  "deployed": false
+}

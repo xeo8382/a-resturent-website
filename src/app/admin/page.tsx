@@ -10,8 +10,21 @@ export default async function AdminPage() {
   if (!["ADMIN", "MANAGER"].includes(user.role)) redirect("/pos/orders");
   const items = await db.menuItem.findMany({
     where: { restaurantId: user.restaurantId },
-    select: { id: true, name: true, price: true, available: true },
+    select: {
+      id: true,
+      name: true,
+      price: true,
+      available: true,
+      description: true,
+      categoryId: true,
+      allergens: true,
+    },
     orderBy: { name: "asc" },
+  });
+  const categories = await db.menuCategory.findMany({
+    where: { restaurantId: user.restaurantId },
+    select: { id: true, name: true },
+    orderBy: { position: "asc" },
   });
   const staff = await db.user.findMany({
     where: { restaurantId: user.restaurantId },
@@ -30,7 +43,11 @@ export default async function AdminPage() {
             </p>
           </div>
         </div>
-        <AdminPanel items={items} canCreateStaff={user.role === "ADMIN"} />
+        <AdminPanel
+          items={items}
+          categories={categories}
+          canCreateStaff={user.role === "ADMIN"}
+        />
         <section className="staff-list">
           <h2>Staff</h2>
           {staff.map((s) => (
@@ -43,9 +60,9 @@ export default async function AdminPage() {
           ))}
         </section>
         <p className="notice">
-          Phase 1 management supports pricing, availability and staff creation.
-          Menu content editing, staff role changes, password resets and account
-          deactivation remain future work.
+          Menu content, prices and availability apply to new orders. New dishes
+          use a placeholder illustration. Staff role changes, password reset,
+          account deactivation and category editing remain future work.
         </p>
       </main>
     </StaffShell>

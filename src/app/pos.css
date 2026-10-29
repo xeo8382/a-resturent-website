@@ -1,0 +1,1035 @@
+/* Reference-independent staff UI. All rules are scoped away from customer pages. */
+.staff-app {
+  --line: #3b404d;
+  --muted: #aeb4c4;
+  --orange: #d79a7c;
+  --serif: "Ember Sans", Arial, sans-serif;
+  font-family: "Ember Sans", Arial, sans-serif;
+  background: #1e2028;
+  color: #f1efec;
+  min-height: 100svh;
+}
+.staff-app h1,
+.staff-app h2,
+.staff-app h3 {
+  font-family: inherit;
+  letter-spacing: -0.03em;
+}
+.staff-app button,
+.staff-app input,
+.staff-app select,
+.staff-app textarea {
+  font-family: inherit;
+}
+.staff-app .staff-sidebar {
+  width: 98px;
+  background: #171920;
+  padding: 25px 10px;
+  border-right-color: #343744;
+}
+.staff-app .staff-brand {
+  font-family: inherit;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: #dfa886;
+}
+.staff-app .staff-sidebar nav {
+  margin-top: 32px;
+  gap: 12px;
+}
+.staff-app .staff-sidebar nav a {
+  font-size: 9px;
+  min-height: 70px;
+  border-radius: 12px;
+  gap: 10px;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.staff-app .staff-sidebar nav a.active {
+  background: #d79a7c22;
+  color: #e8b495;
+}
+.staff-app .staff-sidebar nav a:hover {
+  background: #30323f;
+  color: #f4dbc7;
+}
+.staff-app .staff-content {
+  margin-left: 98px;
+}
+.staff-app .staff-topbar {
+  min-height: 78px;
+  padding: 16px 28px;
+  background: #1f222c;
+  border-color: #333745;
+  font-size: 12px;
+}
+.staff-app .staff-avatar {
+  background: #514238;
+  color: #edc5a7;
+}
+.staff-app .staff-topbar small {
+  font-size: 10px;
+  color: #b6bdca;
+}
+.staff-app .pos-main {
+  padding: 27px 28px;
+  max-width: 1800px;
+}
+.staff-app .pos-heading {
+  margin-bottom: 25px;
+}
+.staff-app .pos-heading h1 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+}
+.staff-app .pos-heading .eyebrow {
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: #dbab8d;
+}
+.staff-app .pos-heading p:not(.eyebrow) {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #aeb4c4;
+}
+.staff-app .button {
+  background: #d79a7c;
+  border-color: #d79a7c;
+  color: #211e1b;
+  min-height: 46px;
+  border-radius: 9px;
+  font-size: 12px;
+  gap: 17px;
+}
+.staff-app .button:hover:not(:disabled) {
+  background: #edb699;
+  transform: none;
+}
+.staff-app .button.secondary {
+  color: #e0b296;
+  background: transparent;
+  border-color: #645044;
+}
+.staff-app .pos-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 42px;
+  border: 1px solid #454a59;
+  background: transparent;
+  color: #d9dce4;
+  border-radius: 8px;
+  padding: 9px 13px;
+  font-size: 11px;
+}
+.staff-app .pos-outline:hover {
+  background: #303440;
+}
+.staff-app .notice {
+  border-radius: 8px;
+  font-size: 12px;
+}
+.staff-app .notice.error {
+  color: #ffd2c3;
+  background: #412c2c;
+  border-color: #9c6556;
+}
+.staff-app :focus-visible {
+  outline: 2px solid #e5b499;
+  outline-offset: 4px;
+}
+.staff-app .pos-help {
+  color: #b2b8c7;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.staff-app .pos-loading {
+  border: 1px solid #383e4c;
+  background: #262a35;
+  border-radius: 12px;
+  padding: 55px;
+  color: #c7cddd;
+}
+.staff-app .pos-disclaimer {
+  font-size: 10px;
+  color: #9fa7b8;
+  padding: 15px 28px;
+}
+.staff-app .sale-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 336px;
+  gap: 25px;
+  align-items: start;
+}
+.staff-app .sale-menu {
+  min-width: 0;
+}
+.staff-app .sale-search {
+  height: 49px;
+  background: #292d39;
+  border: 1px solid #3e4453;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 15px;
+  color: #b8bfce;
+}
+.staff-app .sale-search input {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  flex: 1;
+  min-width: 0;
+  color: #f2f1ed;
+}
+.staff-app .sale-search input:focus {
+  outline-offset: 4px;
+}
+.staff-app .sale-search > span {
+  font-size: 10px;
+  white-space: nowrap;
+  color: #a4adbe;
+}
+.staff-app .pos-food-categories {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 22px 0 25px;
+}
+.staff-app .pos-food-categories button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: #292d39;
+  border: 1px solid #3b4050;
+  color: #b9c0cd;
+  padding: 11px 12px;
+  border-radius: 8px;
+  min-height: 45px;
+  font-size: 10px;
+}
+.staff-app .pos-food-categories button.active {
+  background: #d79a7c20;
+  border-color: #c08b70;
+  color: #ecc0a5;
+}
+.staff-app .pos-food-categories button span {
+  font-size: 9px;
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  background: #1b1e26;
+  border-radius: 5px;
+}
+.staff-app .pos-food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+}
+.staff-app .pos-food-card {
+  background: #292d38;
+  border: 1px solid #3c4250;
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  text-align: left;
+  min-width: 0;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+.staff-app .pos-food-card:hover:not(:disabled) {
+  border-color: #d79a7c;
+  background: #2e323e;
+}
+.staff-app .pos-food-photo {
+  position: relative;
+  aspect-ratio: 1.4;
+  overflow: hidden;
+  background: #3f4436;
+}
+.staff-app .pos-photo-frame {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.staff-app .pos-food-photo img {
+  object-fit: cover;
+}
+.staff-app .pos-food-info {
+  padding: 15px 14px;
+}
+.staff-app .pos-food-info h2 {
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  margin-bottom: 7px;
+  min-height: 35px;
+}
+.staff-app .pos-food-info p {
+  font-size: 9px;
+  color: #b2b9c6;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  min-height: 30px;
+}
+.staff-app .pos-food-info > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.staff-app .pos-food-info strong {
+  font-size: 13px;
+  color: #edb495;
+  font-weight: 500;
+}
+.staff-app .pos-add-circle {
+  display: grid;
+  place-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  border: 1px solid #706052;
+  color: #efc1a5;
+  background: #d79a7c12;
+}
+.staff-app .pos-item-count,
+.staff-app .pos-sold-label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 5px;
+  background: #25261ee0;
+  padding: 5px 8px;
+  color: #f3d1aa;
+  font-size: 9px;
+}
+.staff-app .pos-sold-label {
+  background: #291d1ce0;
+  color: #ffd0c1;
+}
+.staff-app .pos-food-card.sold-out img {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+.staff-app .sale-check {
+  background: #272b36;
+  border: 1px solid #414755;
+  border-radius: 12px;
+  padding: 21px;
+  position: sticky;
+  top: 20px;
+  min-width: 0;
+}
+.staff-app .check-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.staff-app .check-title .eyebrow {
+  font-size: 8px;
+  color: #b6becc;
+  letter-spacing: 1.6px;
+}
+.staff-app .check-title h2 {
+  font-size: 21px;
+  font-weight: 500;
+  margin: 7px 0 0;
+  letter-spacing: -0.5px;
+}
+.staff-app .check-title > svg {
+  color: #dda98a;
+}
+.staff-app .check-options {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+.staff-app .pos-mode-tabs {
+  display: flex;
+  padding: 4px;
+  gap: 4px;
+  background: #1d212a;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+.staff-app .pos-mode-tabs button {
+  flex: 1;
+  background: transparent;
+  color: #b7bfce;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 6px;
+  min-height: 40px;
+  font-size: 11px;
+}
+.staff-app .pos-mode-tabs button.active {
+  color: #f1c0a3;
+  background: #d79a7c25;
+}
+.staff-app .check-options label,
+.staff-app .check-note {
+  display: block;
+  font-size: 10px;
+  margin-bottom: 15px;
+  color: #c5ccda;
+}
+.staff-app .check-options label > span {
+  color: #969fb1;
+}
+.staff-app .check-options input,
+.staff-app .check-options select,
+.staff-app .check-note textarea {
+  width: 100%;
+  background: #202530;
+  border: 1px solid #484f60;
+  border-radius: 7px;
+  padding: 11px 12px;
+  color: #edf0f5;
+  font-size: 12px;
+  margin-top: 8px;
+  min-height: 42px;
+}
+.staff-app select option {
+  background: #262b37;
+  color: #f0f1ed;
+}
+.staff-app .check-items {
+  margin: 20px 0;
+  border-top: 1px solid #424856;
+}
+.staff-app .check-items article {
+  padding: 15px 0;
+  border-bottom: 1px solid #424856;
+}
+.staff-app .check-items article > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 11px;
+}
+.staff-app .check-items article strong {
+  font-weight: 500;
+  line-height: 1.7;
+}
+.staff-app .check-items article > div:first-child > span {
+  white-space: nowrap;
+  color: #e9b99b;
+}
+.staff-app .check-item-controls {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 10px;
+}
+.staff-app .check-item-controls button {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  background: #202530;
+  color: #dbbaa4;
+  border: 1px solid #4e5562;
+  border-radius: 5px;
+}
+.staff-app .check-item-controls > span {
+  font-size: 11px;
+  min-width: 20px;
+  text-align: center;
+}
+.staff-app .check-item-controls > span:last-child {
+  color: #aeb6c6;
+  font-size: 9px;
+  margin-left: auto;
+}
+.staff-app .check-note textarea {
+  min-height: 68px;
+  resize: vertical;
+  font-size: 11px;
+}
+.staff-app .check-totals > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 11px;
+  color: #b8c0d0;
+  padding: 7px 0;
+}
+.staff-app .check-totals .check-grand-total {
+  margin-top: 9px;
+  padding-top: 18px;
+  border-top: 1px dashed #566071;
+  font-size: 15px;
+  color: #f0efeb;
+}
+.staff-app .check-grand-total strong {
+  font-weight: 500;
+  color: #eebc9d;
+}
+.staff-app .clear-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  color: #b0b8c8;
+  border: 0;
+  width: 100%;
+  padding: 15px 0 0;
+  font-size: 10px;
+  min-height: 40px;
+}
+.staff-app .empty-check {
+  text-align: center;
+  padding: 35px 4px;
+  color: #aeb7c8;
+}
+.staff-app .empty-check svg {
+  margin: 0 auto 15px;
+  color: #b28c75;
+}
+.staff-app .empty-check h3 {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.staff-app .empty-check p {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+.staff-app .pos-item-error {
+  font-size: 11px;
+  color: #f6bba8;
+  margin: 8px 0;
+  line-height: 1.7;
+}
+.staff-app .order-source {
+  display: inline-block;
+  color: #cbb29e;
+  font-size: 9px;
+  margin-bottom: 12px;
+}
+.staff-app .pos-receipt-link {
+  display: block;
+  font-size: 11px;
+  text-decoration: underline;
+  color: #edbfa5;
+  margin-top: 20px;
+  min-height: 30px;
+}
+.staff-app .staff-order-card {
+  border-radius: 12px;
+}
+.staff-app .order-detail-panel {
+  border-radius: 12px;
+}
+.staff-app .order-detail-panel h3 {
+  font-family: inherit;
+}
+.staff-app .pos-stats > div {
+  border-radius: 10px;
+  background: #292d38;
+}
+.staff-app .connection {
+  font-size: 11px;
+  color: #c1c9d7;
+}
+.staff-app .floor-legend {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 10px 0 25px;
+  color: #c0c8d7;
+  font-size: 11px;
+}
+.staff-app .floor-legend > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.staff-app .floor-legend i {
+  width: 7px;
+  height: 7px;
+  background: #87b89b;
+  border-radius: 50%;
+}
+.staff-app .floor-legend > span:nth-child(2) i {
+  background: #e7ad86;
+}
+.staff-app .floor-legend small {
+  margin-left: auto;
+  color: #9ba5b7;
+  font-size: 10px;
+}
+.staff-app .floor-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+.staff-app .floor-table {
+  padding: 23px;
+  border: 1px solid #465749;
+  border-radius: 12px;
+  background: #27312d;
+}
+.staff-app .floor-table.occupied {
+  border-color: #75604c;
+  background: #342e2a;
+}
+.staff-app .floor-table > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.staff-app .table-occupancy {
+  color: #b7d7bf;
+  font-size: 10px;
+}
+.staff-app .occupied .table-occupancy {
+  color: #ecc0a0;
+}
+.staff-app .floor-table > div svg {
+  color: #a2bba5;
+}
+.staff-app .occupied > div svg {
+  color: #c5a98d;
+}
+.staff-app .floor-table h2 {
+  font-size: 35px;
+  margin: 25px 0 8px;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+.staff-app .floor-table > p {
+  font-size: 11px;
+  color: #b5bec4;
+}
+.staff-app .floor-order {
+  display: block;
+  border-top: 1px solid #8c988740;
+  padding-top: 16px;
+  margin-top: 18px;
+  font-size: 11px;
+}
+.staff-app .floor-order strong {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 8px;
+}
+.staff-app .floor-order > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 10px;
+  color: #c6c7bf;
+}
+.staff-app .receipt-page {
+  max-width: 900px;
+}
+.staff-app .receipt-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 12px;
+  gap: 20px;
+}
+.staff-app .pos-receipt {
+  background: #f6f3ea;
+  color: #25291e;
+  max-width: 600px;
+  padding: 45px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 12px 30px #0002;
+}
+.staff-app .pos-receipt h1 {
+  font-size: 29px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0 20px;
+}
+.staff-app .pos-receipt > .eyebrow {
+  text-align: center;
+  color: #5c6552;
+  font-size: 9px;
+}
+.staff-app .pos-receipt > p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.9;
+  color: #58604e;
+}
+.staff-app .receipt-payment {
+  text-align: center;
+  border: 1px solid #a9ae9d;
+  padding: 13px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  margin: 25px 0;
+  color: #665a37;
+}
+.staff-app .receipt-PAID {
+  background: #dce8d9;
+  color: #355139;
+  border-color: #98b390;
+}
+.staff-app .receipt-VOID {
+  background: #efddd5;
+  color: #763e2e;
+}
+.staff-app .receipt-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px dashed #c5c7b8;
+  font-size: 12px;
+}
+.staff-app .receipt-line strong {
+  font-weight: 500;
+}
+.staff-app .receipt-line small {
+  display: block;
+  font-size: 10px;
+  color: #69735d;
+  margin-top: 5px;
+}
+.staff-app .receipt-line > span {
+  white-space: nowrap;
+}
+.staff-app .receipt-total {
+  font-size: 18px;
+  border-bottom: 0;
+  padding: 24px 0;
+}
+.staff-app .pos-receipt footer {
+  text-align: center;
+  font-size: 11px;
+  color: #69735d;
+  line-height: 1.9;
+  border-top: 1px solid #c5c7b8;
+  padding-top: 20px;
+  margin-top: 25px;
+}
+.staff-app .admin-menu form {
+  background: #282d38;
+  border: 1px solid #414957;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 17px;
+  gap: 15px;
+  align-items: end;
+}
+.staff-app .admin-menu label {
+  font-size: 11px;
+  color: #c0c9d7;
+}
+.staff-app .admin-menu input,
+.staff-app .admin-menu textarea,
+.staff-app .admin-menu select,
+.staff-app .admin-staff input,
+.staff-app .admin-staff select,
+.staff-app .menu-create input,
+.staff-app .menu-create textarea,
+.staff-app .menu-create select {
+  border-color: #50596b;
+  border-radius: 7px;
+  padding: 10px 12px;
+  background: #202633;
+  color: #eff2f6;
+  font-size: 12px;
+  min-height: 42px;
+}
+.staff-app .admin-menu .menu-content-fields {
+  flex: 1;
+  min-width: 200px;
+}
+.staff-app .admin-menu .menu-content-fields input {
+  font-size: 13px;
+}
+.staff-app .admin-menu textarea {
+  width: 100%;
+  min-height: 65px;
+  margin-top: 8px;
+  resize: vertical;
+}
+.staff-app .admin-menu input[type="checkbox"] {
+  min-height: 0;
+  width: 16px;
+  padding: 0;
+  background: transparent;
+}
+.staff-app .admin-menu input[type="number"] {
+  width: 110px;
+}
+.staff-app .menu-create {
+  max-width: 700px;
+  margin-top: 35px;
+}
+.staff-app .menu-create h2 {
+  font:
+    500 22px "Ember Sans",
+    Arial,
+    sans-serif;
+  margin-bottom: 25px;
+}
+.staff-app .menu-create form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.staff-app .menu-create label {
+  font-size: 12px;
+  color: #c2ccda;
+}
+.staff-app .menu-create .span-two {
+  grid-column: 1/-1;
+}
+.staff-app .menu-create textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 85px;
+}
+.staff-app .admin-menu .checkbox-label {
+  white-space: nowrap;
+  min-height: 42px;
+}
+.staff-app .staff-list p {
+  font-size: 13px;
+}
+.staff-app .staff-list span {
+  color: #b4bdcc;
+}
+.staff-app .admin-staff .form-panel label {
+  font-size: 12px;
+  color: #bdc8d8;
+}
+@media (max-width: 1150px) {
+  .staff-app .pos-food-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .staff-app .sale-layout {
+    grid-template-columns: minmax(0, 1fr) 310px;
+    gap: 20px;
+  }
+  .staff-app .floor-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .staff-app .admin-menu form {
+    flex-wrap: wrap;
+  }
+  .staff-app .admin-menu .menu-content-fields {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .staff-app .sale-layout {
+    grid-template-columns: 1fr;
+  }
+  .staff-app .pos-food-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .staff-app .sale-check {
+    position: static;
+  }
+  .staff-app .pos-main {
+    padding: 25px 20px;
+  }
+  .staff-app .floor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .staff-app .staff-sidebar {
+    width: 100%;
+    height: 75px;
+    inset: auto 0 0;
+    padding: 6px;
+  }
+  .staff-app .staff-content {
+    margin-left: 0;
+    padding-bottom: 75px;
+  }
+  .staff-app .staff-sidebar nav {
+    margin: 0;
+    gap: 0;
+  }
+  .staff-app .staff-sidebar nav a {
+    min-height: 55px;
+    padding: 7px 5px;
+    font-size: 8px;
+    min-width: 45px;
+    border-radius: 7px;
+    gap: 6px;
+  }
+  .staff-app .staff-sidebar nav svg {
+    width: 18px;
+    height: 18px;
+  }
+  .staff-app .staff-sidebar > button {
+    width: 43px;
+    min-width: 43px;
+  }
+  .staff-app .staff-topbar {
+    padding: 15px 18px;
+    min-height: 70px;
+  }
+  .staff-app .pos-heading h1 {
+    font-size: 25px;
+  }
+  .staff-app .pos-outline {
+    margin-top: 15px;
+    min-height: 42px;
+  }
+  .staff-app .pos-food-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .staff-app .pos-food-info {
+    padding: 12px;
+  }
+  .staff-app .pos-food-info h2 {
+    font-size: 12px;
+  }
+  .staff-app .pos-food-info p {
+    font-size: 10px;
+  }
+  .staff-app .pos-food-info strong {
+    font-size: 12px;
+  }
+  .staff-app .pos-food-categories button {
+    font-size: 11px;
+    padding: 10px;
+  }
+  .staff-app .sale-search input {
+    font-size: 14px;
+  }
+  .staff-app .sale-search > span {
+    display: none;
+  }
+  .staff-app .pos-main {
+    padding: 25px 17px;
+  }
+  .staff-app .pos-heading p:not(.eyebrow) {
+    font-size: 11px;
+  }
+  .staff-app .check-options input,
+  .staff-app .check-options select {
+    font-size: 16px;
+  }
+  .staff-app .floor-legend {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .staff-app .floor-legend small {
+    margin-left: 0;
+  }
+  .staff-app .floor-table {
+    padding: 18px;
+  }
+  .staff-app .floor-table h2 {
+    font-size: 29px;
+  }
+  .staff-app .receipt-toolbar {
+    font-size: 11px;
+  }
+  .staff-app .pos-receipt {
+    padding: 25px;
+  }
+  .staff-app .pos-receipt h1 {
+    font-size: 24px;
+  }
+  .staff-app .menu-create form {
+    grid-template-columns: 1fr;
+  }
+  .staff-app .menu-create .span-two {
+    grid-column: auto;
+  }
+  .staff-app .admin-menu form {
+    gap: 12px;
+  }
+  .staff-app .pos-disclaimer {
+    padding: 12px 18px;
+    font-size: 9px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .staff-app * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+@media print {
+  body:has(.pos-receipt) {
+    background: white;
+  }
+  .staff-app:has(.pos-receipt) {
+    background: white;
+    color: #111;
+  }
+  .staff-app:has(.pos-receipt) .staff-sidebar,
+  .staff-app:has(.pos-receipt) .staff-topbar,
+  .staff-app:has(.pos-receipt) .pos-disclaimer,
+  .staff-app .receipt-toolbar {
+    display: none;
+  }
+  .staff-app:has(.pos-receipt) .staff-content {
+    margin: 0;
+    padding: 0;
+  }
+  .staff-app:has(.pos-receipt) .pos-main {
+    padding: 0;
+  }
+  .staff-app .pos-receipt {
+    box-shadow: none;
+    border: 0;
+    width: 100%;
+    max-width: 80mm;
+    padding: 4mm;
+    background: white;
+    color: black;
+  }
+  .staff-app .receipt-payment {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+@media (min-width: 901px) {
+  .staff-app .sale-check {
+    height: calc(100svh - 210px);
+    min-height: 540px;
+    display: flex;
+    flex-direction: column;
+  }
+  .staff-app .check-scroll {
+    overflow: auto;
+    min-height: 90px;
+    flex: 1;
+    margin-bottom: 15px;
+    padding-right: 7px;
+    scrollbar-width: thin;
+    scrollbar-color: #6e6157 #232732;
+  }
+  .staff-app .sale-check > .button {
+    flex-shrink: 0;
+  }
+  .staff-app .check-title {
+    flex-shrink: 0;
+  }
+}

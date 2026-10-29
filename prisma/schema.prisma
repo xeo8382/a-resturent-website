@@ -21,6 +21,10 @@ enum OrderStatus {
   COMPLETED
   CANCELLED
 }
+enum OrderSource {
+  ONLINE
+  STAFF
+}
 enum Fulfillment {
   DELIVERY
   PICKUP
@@ -60,6 +64,7 @@ model User {
   role Role @default(STAFF)
   active Boolean @default(true)
   sessions Session[]
+  createdOrders Order[]
   createdAt DateTime @default(now())
 }
 model Session {
@@ -109,6 +114,9 @@ model Order {
   restaurant Restaurant @relation(fields: [restaurantId], references: [id])
   tableId String?
   table Table? @relation(fields: [tableId], references: [id])
+  source OrderSource @default(ONLINE)
+  createdById String?
+  createdBy User? @relation(fields: [createdById], references: [id], onDelete: SetNull)
   customerName String
   phone String
   address String?

@@ -1,6 +1,11 @@
 import { pageUser } from "@/lib/page-auth";
 import { IncomingOrders } from "@/components/incoming-orders";
-export default async function OrdersPage() {
+export default async function OrdersPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ order?: string }>;
+}) {
   const user = await pageUser();
-  return <IncomingOrders role={user.role} />;
+  const id = (await searchParams).order;
+  return <IncomingOrders key={id} initialOrderId={id} role={user.role} />;
 }

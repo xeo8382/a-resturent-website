@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import "@/app/pos.css";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import {
@@ -9,6 +10,7 @@ import {
   LayoutGrid,
   Settings,
   LogOut,
+  UtensilsCrossed,
 } from "lucide-react";
 export function StaffShell({
   children,
@@ -23,6 +25,9 @@ export function StaffShell({
   const router = useRouter();
   const [error, setError] = useState("");
   const links = [
+    ...(role !== "KITCHEN"
+      ? [{ href: "/pos", label: "New order", icon: UtensilsCrossed }]
+      : []),
     { href: "/pos/orders", label: "Incoming orders", icon: ClipboardList },
     { href: "/pos/kitchen", label: "Kitchen", icon: CookingPot },
     { href: "/pos/tables", label: "Tables", icon: LayoutGrid },
@@ -43,6 +48,7 @@ export function StaffShell({
               key={href}
               href={href}
               className={path === href ? "active" : ""}
+              aria-current={path === href ? "page" : undefined}
             >
               <Icon size={22} />
               <span>{label}</span>
@@ -85,8 +91,7 @@ export function StaffShell({
         )}
         {children}
         <p className="pos-disclaimer">
-          Functional Phase 1 console · Provisional design; Figma screenshots
-          pending.
+          Service console · Reference-independent UI; Figma screenshots pending.
         </p>
       </div>
     </div>

@@ -10,7 +10,7 @@ export async function staffOrders() {
         { updatedAt: { gte: new Date(Date.now() - 24 * 3600_000) } },
       ],
     },
-    include: { items: true, payment: true },
+    include: { items: true, payment: true, table: { select: { label: true } } },
     orderBy: { createdAt: "desc" },
     take: 200,
   });

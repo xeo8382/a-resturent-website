@@ -1,9 +1,12 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Fulfillment, OrderStatus, Role } from "@prisma/client";
 import { nextStatuses, money } from "@/lib/order-rules";
 import { RefreshCw, Search } from "lucide-react";
 type StaffOrder = {
+  source: "ONLINE" | "STAFF";
+  table: { label: string } | null;
   id: string;
   customerName: string;
   phone: string;
@@ -36,12 +39,14 @@ const actionNames: Record<string, string> = {
 export function IncomingOrders({
   role,
   kitchen = false,
+  initialOrderId = null,
 }: {
   role: Role;
   kitchen?: boolean;
+  initialOrderId?: string | null;
 }) {
   const [orders, setOrders] = useState<StaffOrder[]>([]);
-  const [selected, setSelected] = useState<string | null>(null);
+  const [selected, setSelected] = useState<string | null>(initialOrderId);
   const [filter, setFilter] = useState(kitchen ? "kitchen" : "active");
   const [search, setSearch] = useState("");
   const [error, setError] = useState("");
@@ -93,6 +98,8 @@ export function IncomingOrders({
   const filtered = orders.filter(
     (o) =>
       (filter === "all" ||
+        (filter === "online" && o.source === "ONLINE") ||
+        (filter === "staff" && o.source === "STAFF") ||
         (filter === "active" &&
           !["COMPLETED", "CANCELLED"].includes(o.status)) ||
         (filter === "kitchen" &&
@@ -170,6 +177,8 @@ export function IncomingOrders({
                 ["PLACED", "New"],
                 ["COMPLETED", "Completed"],
                 ["all", "All recent"],
+                ["online", "Online"],
+                ["staff", "Staff"],
               ]
           ).map(([value, label]) => (
             <button
@@ -231,6 +240,10 @@ export function IncomingOrders({
                   {statusNames[o.status]}
                 </span>
               </div>
+              <span className="order-source">
+                {o.source === "STAFF" ? "Staff order" : "Online order"}
+                {o.table ? ` · ${o.table.label}` : ""}
+              </span>
               <h2>{o.customerName}</h2>
               <span className="order-meta">
                 {o.fulfillment.replace("_", " ").toLowerCase()} ·{" "}
@@ -266,11 +279,15 @@ export function IncomingOrders({
                 {statusNames[current.status]}
               </span>
               <h3>{current.customerName}</h3>
-              <a href={`tel:${current.phone}`}>{current.phone}</a>
+              {current.phone && (
+                <a href={`tel:${current.phone}`}>{current.phone}</a>
+              )}
               <p>
                 {current.fulfillment === "DELIVERY"
                   ? current.address
-                  : "Pickup at restaurant"}
+                  : current.fulfillment === "DINE_IN"
+                    ? `Dine-in · ${current.table?.label ?? "Unassigned"}`
+                    : "Pickup at restaurant"}
               </p>
               {current.notes && (
                 <p className="kitchen-note">
@@ -309,6 +326,14 @@ export function IncomingOrders({
                     I have collected {money(current.total)} in cash
                   </label>
                 )}
+              {role !== "KITCHEN" && (
+                <Link
+                  className="pos-receipt-link"
+                  href={`/pos/receipts/${current.id}`}
+                >
+                  View receipt / order ticket ↗
+                </Link>
+              )}
               <div className="order-actions">
                 {nextStatuses(current.status, current.fulfillment)
                   .filter(

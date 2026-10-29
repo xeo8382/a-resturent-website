@@ -1,0 +1,14 @@
+{
+  "lint": "passed",
+  "typecheck": "passed",
+  "build": "passed",
+  "unitPassed": 32,
+  "postgresIntegrationPassed": 16,
+  "browserSuitePassed": 13,
+  "figmaAccessible": false,
+  "tabletViewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "deployed": false
+}

@@ -28,10 +28,11 @@ Use the existing checkout in isolated cloud tasks; do not create a Git worktree 
 - `/menu`, `/menu/[slug]`: database menu, categories, search, dish details, allergen notes, availability and cart controls.
 - `/cart`, `/checkout`: browser-persisted quantities, delivery or pickup, server validation and cash-only payment. Delivery is BDT 60; pickup is free. No online payment is collected.
 - `/orders/[id]#<private-token>`: private receipt, totals, payment state and live status timeline. Save the complete link; there is no customer account or recovery flow.
-- `/pos/login`, `/pos`, `/pos/orders`: staff sessions, protected order queue, customer/contact details, status updates, optimistic concurrency checks, explicit cash-collection confirmation and logout.
+- `/pos/login`, `/pos`, `/pos/orders`: staff sessions, a searchable/category-based staff order composer, dine-in/pickup orders, a combined online/staff queue, validated status updates and explicit cash-collection confirmation.
 - `/pos/kitchen`: kitchen queue. Kitchen users can start preparation and mark ready; they cannot accept, cancel, dispatch or complete orders.
-- `/admin`: managers/admins edit prices and availability. Admins can create service, kitchen and manager accounts. Staff listing is read-only.
-- `/pos/tables`: database-backed **read-only** table overview. It is not a dine-in or reservation workflow.
+- `/admin`: managers/admins create menu items and edit content, categories, allergen lists, prices and availability. New items receive a placeholder illustration. Admins can create service, kitchen and manager accounts. Staff listing is read-only.
+- `/pos/tables`: live active-check overview with table selection and order links. One active check per table is enforced in PostgreSQL; completed/cancelled checks release the table. Reservations and table reassignment are not implemented.
+- `/pos/receipts/[id]`: protected printable cash receipts or clearly labelled unpaid/void order tickets.
 
 ## Order integrity and authorization
 
@@ -65,7 +66,7 @@ The runtime uses Prisma 6's JavaScript query engine and official PostgreSQL adap
 
 `npm run db:migrate` executes ordered migration directories with a PostgreSQL advisory lock, one transaction per migration, and SHA-256 checksums in `_ember_migrations`. Repeating it verifies checksums and skips applied migrations. Never modify an applied migration. Do not mix this runner with `prisma migrate deploy`; migration ledgers differ. For new schema changes, generate/review a new SQL migration with Prisma diff against the previous schema or a development database, then apply it with this runner. Back up data before schema changes. Current migrations do not delete data.
 
-Seeding is repeatable and uses upserts that preserve edits. It creates seven sample dishes and eight sample tables. Reservations are modeled only; booking and table assignment are not implemented.
+Seeding is repeatable and uses upserts that preserve edits. It creates seven sample dishes and eight sample tables. Reservations are modeled only; booking is not implemented. Phase 3 adds table association at staff order creation. See `docs/PHASE-3-POS.md` for the additive migration, permissions and table concurrency policy.
 
 ## Verify
 
@@ -95,4 +96,4 @@ The requested Fragrancia website and Figma prototype returned network-policy den
 
 ## Not production-ready
 
-Verified locally only. Before real service: replace sample content/contact/location and fulfillment rules, verify HTTPS cookies/origin/streaming on your deployment, configure database TLS/backups/pooling, add deployment-level abuse protection and monitoring, complete a security/accessibility review, and test operational recovery. Current login throttling is per account; it does not replace edge/IP rate limiting or prevent account lockout abuse. Public checkout has no anti-spam/anti-bot controls. Stream and order retention policies, session/throttle cleanup, CSP, password reset, staff deactivation/role editing, menu content CRUD, reservation/table assignment, taxes, discounts, refunds, stock, notifications, online payments and production observability are not implemented. Status completion records a staff cash attestation, not a bank-verified payment. The queue shows at most 200 recent/active orders; high-volume pagination is future work.
+Verified locally only. Before real service: replace sample content/contact/location and fulfillment rules, verify HTTPS cookies/origin/streaming on your deployment, configure database TLS/backups/pooling, add deployment-level abuse protection and monitoring, complete a security/accessibility review, and test operational recovery. Current login throttling is per account; it does not replace edge/IP rate limiting or prevent account lockout abuse. Public checkout has no anti-spam/anti-bot controls. Stream and order retention policies, session/throttle cleanup, CSP, password reset, staff deactivation/role editing, menu item deletion/image uploads, category editing, reservations/table reassignment, taxes, discounts, refunds, stock, notifications, online payments and production observability are not implemented. Status completion records a staff cash attestation, not a bank-verified payment. The queue shows at most 200 recent/active orders; high-volume pagination is future work.

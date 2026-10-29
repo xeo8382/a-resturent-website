@@ -1,26 +1,24 @@
 import { NextResponse } from "next/server";
-import { z } from "zod";
 import { requireUser } from "@/lib/auth";
-import { db } from "@/lib/db";
-import { checkOrigin, errorResponse, readJson, HttpError } from "@/lib/http";
-const schema = z
-  .object({
-    id: z.string(),
-    price: z.number().int().min(100).max(10000000),
-    available: z.boolean(),
-  })
-  .strict();
+import { manageMenu } from "@/lib/menu-management";
+import { checkOrigin, errorResponse, readJson } from "@/lib/http";
 export async function PATCH(request: Request) {
   try {
     checkOrigin(request);
     const user = await requireUser(["ADMIN", "MANAGER"]);
-    const data = schema.parse(await readJson(request));
-    const result = await db.menuItem.updateMany({
-      where: { id: data.id, restaurantId: user.restaurantId },
-      data: { price: data.price, available: data.available },
-    });
-    if (!result.count) throw new HttpError(404, "Menu item not found.");
-    return NextResponse.json({ ok: true });
+    return NextResponse.json(await manageMenu(await readJson(request), user));
+  } catch (e) {
+    return errorResponse(e);
+  }
+}
+export async function POST(request: Request) {
+  try {
+    checkOrigin(request);
+    const user = await requireUser(["ADMIN", "MANAGER"]);
+    return NextResponse.json(
+      await manageMenu(await readJson(request), user, true),
+      { status: 201 },
+    );
   } catch (e) {
     return errorResponse(e);
   }
