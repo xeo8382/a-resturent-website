@@ -209,6 +209,17 @@
   object-position: 67% center;
   filter: brightness(0.72) saturate(0.74);
 }
+.customer-site .cinema-backdrop-entrance {
+  position: absolute;
+  inset: 0;
+}
+.customer-site .hero-inset-entrance {
+  position: relative;
+}
+.customer-site .photo-reveal {
+  position: absolute;
+  inset: 0;
+}
 .customer-site .cinema-shade {
   position: absolute;
   inset: 0;
@@ -461,9 +472,7 @@
 }
 .customer-site .editorial-dish-image img {
   object-fit: cover;
-  transition:
-    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1),
-    filter 0.6s;
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
   filter: saturate(0.85);
 }
 .customer-site .steak-photo img {
@@ -472,10 +481,15 @@
 .customer-site .harvest-photo img {
   object-position: center 55%;
 }
-.customer-site .editorial-dish:hover img,
 .customer-site .editorial-dish:focus-visible img {
-  transform: scale(1.06);
+  transform: scale(1.045);
   filter: saturate(1);
+}
+@media (hover: hover) and (pointer: fine) {
+  .customer-site .editorial-dish:hover img {
+    transform: scale(1.045);
+    filter: saturate(1);
+  }
 }
 .customer-site .editorial-dish-tag {
   position: absolute;
@@ -1814,6 +1828,12 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .customer-site .cinema-backdrop-entrance,
+  .customer-site .hero-entrance,
+  .customer-site .hero-inset-entrance {
+    opacity: 1 !important;
+    transform: none !important;
+  }
   .customer-site .editorial-dish-image img,
   .customer-site .menu-card-image img,
   .customer-site .detail-art img,
@@ -1831,6 +1851,7 @@
     will-change: auto;
   }
   .customer-site .word-window > span,
+  .customer-site .reveal-text,
   .customer-site .reveal,
   .customer-site .customer-route,
   .customer-site .menu-card {

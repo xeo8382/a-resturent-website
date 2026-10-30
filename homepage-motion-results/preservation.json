@@ -1,0 +1,11 @@
+{
+  "protectedFilesChecked": 53,
+  "changedProtectedFiles": [],
+  "existingFilesChanged": [
+    "src/app/customer.css",
+    "src/components/cinematic-home.tsx",
+    "src/components/customer-frame.tsx",
+    "src/components/reveal.tsx",
+    "docs/CUSTOMER-REDESIGN.md"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "next": "16.4.3",
+  "build": "passed",
+  "lint": "passed",
+  "typecheck": "passed",
+  "unitTests": {
+    "passed": 32
+  },
+  "integrationTests": {
+    "passed": 16
+  },
+  "productionBrowserSuite": {
+    "passed": 17
+  },
+  "finalExpandedMotionTests": {
+    "passed": 4
+  },
+  "viewports": [
+    1440,
+    390
+  ],
+  "hydrationErrors": 0,
+  "physicalAndroidTested": false,
+  "deployed": false
+}
