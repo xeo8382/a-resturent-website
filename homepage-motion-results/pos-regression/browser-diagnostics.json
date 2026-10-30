@@ -1,0 +1,14 @@
+{
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "pageErrors": [],
+  "warnings": [],
+  "responsiveWidthsChecked": [
+    1280,
+    768,
+    390
+  ],
+  "referenceAccessible": false
+}
