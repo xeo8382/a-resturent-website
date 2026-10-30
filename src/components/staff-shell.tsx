@@ -11,6 +11,7 @@ import {
   Settings,
   LogOut,
   UtensilsCrossed,
+  CalendarDays,
 } from "lucide-react";
 export function StaffShell({
   children,
@@ -31,8 +32,20 @@ export function StaffShell({
     { href: "/pos/orders", label: "Incoming orders", icon: ClipboardList },
     { href: "/pos/kitchen", label: "Kitchen", icon: CookingPot },
     { href: "/pos/tables", label: "Tables", icon: LayoutGrid },
+    ...(role !== "KITCHEN"
+      ? [
+          {
+            href: "/pos/reservations",
+            label: "Reservations",
+            icon: CalendarDays,
+          },
+        ]
+      : []),
     ...(["ADMIN", "MANAGER"].includes(role)
-      ? [{ href: "/admin", label: "Manage", icon: Settings }]
+      ? [
+          { href: "/admin", label: "Manage", icon: Settings },
+          { href: "/admin/business", label: "Business", icon: CalendarDays },
+        ]
       : []),
   ];
   return (

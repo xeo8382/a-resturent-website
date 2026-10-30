@@ -36,6 +36,16 @@
 .staff-app .staff-sidebar nav {
   margin-top: 32px;
   gap: 12px;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+.staff-app .staff-sidebar > .staff-brand,
+.staff-app .staff-sidebar > button,
+.staff-app .staff-sidebar nav a {
+  flex-shrink: 0;
 }
 .staff-app .staff-sidebar nav a {
   font-size: 9px;
@@ -869,6 +879,9 @@
   .staff-app .staff-sidebar nav {
     margin: 0;
     gap: 0;
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
   .staff-app .staff-sidebar nav a {
     min-height: 55px;
@@ -1031,5 +1044,164 @@
   }
   .staff-app .check-title {
     flex-shrink: 0;
+  }
+}
+
+/* Reservation and operating-configuration screens; existing POS selectors preserved. */
+.staff-app .reservation-date-filter {
+  display: grid;
+  gap: 10px;
+  max-width: 280px;
+  margin: 24px 0;
+}
+.staff-app .staff-reservation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr));
+  gap: 22px;
+}
+.staff-app .staff-reservation-card {
+  background: #252832;
+  border: 1px solid #444956;
+  border-radius: 10px;
+  padding: 24px;
+  min-width: 0;
+}
+.staff-app .booking-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 16px;
+}
+.staff-app .booking-card-top h2 {
+  font: 600 20px var(--sans);
+  letter-spacing: 0;
+  margin: 0 0 15px;
+}
+.staff-app .booking-card-top > span {
+  font-size: 11px;
+  color: #f1c8a5;
+}
+.staff-app .staff-reservation-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #d0d3da;
+  overflow-wrap: anywhere;
+  margin-bottom: 12px;
+}
+.staff-app .reservation-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+.staff-app .settings-form > section,
+.staff-app .table-settings {
+  background: #252832;
+  border: 1px solid #444956;
+  padding: 28px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.staff-app .business-settings h2 {
+  font-size: 25px;
+  margin-bottom: 18px;
+}
+.staff-app .business-settings p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #c3c7d1;
+  margin-bottom: 20px;
+}
+.staff-app .settings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.staff-app .business-settings label {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+  font-size: 13px;
+}
+.staff-app .business-settings .checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+.staff-app .business-settings input:not([type="checkbox"]),
+.staff-app .business-settings select,
+.staff-app .reservation-date-filter input {
+  width: 100%;
+  min-width: 0;
+  background: #181b22;
+  border: 1px solid #616979;
+  border-radius: 5px;
+  color: #f2f3f5;
+  color-scheme: dark;
+  min-height: 45px;
+  padding: 10px;
+  font-size: 15px;
+}
+.staff-app .business-settings input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+.staff-app .hours-editor,
+.staff-app .zone-editor {
+  display: grid;
+  gap: 16px;
+}
+.staff-app .hours-editor fieldset,
+.staff-app .zone-editor fieldset {
+  border: 1px solid #444956;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.staff-app .hours-editor legend,
+.staff-app .zone-editor legend {
+  padding: 0 8px;
+  font-size: 14px;
+}
+.staff-app .zone-editor {
+  margin: 24px 0;
+}
+.staff-app .table-settings form {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  border-bottom: 1px solid #444956;
+}
+.staff-app .table-settings form > h3 {
+  flex-basis: 100%;
+  font-size: 20px;
+}
+.staff-app .table-settings label {
+  flex: 1;
+  min-width: 110px;
+}
+.staff-app .business-settings > .notice {
+  position: sticky;
+  top: 8px;
+  z-index: 2;
+}
+@media (max-width: 760px) {
+  .staff-app .settings-grid {
+    grid-template-columns: 1fr;
+  }
+  .staff-app .settings-form > section,
+  .staff-app .table-settings {
+    padding: 20px 15px;
+  }
+  .staff-app .hours-editor fieldset,
+  .staff-app .zone-editor fieldset {
+    grid-template-columns: 1fr;
+  }
+  .staff-app .staff-reservation-card {
+    padding: 20px;
   }
 }

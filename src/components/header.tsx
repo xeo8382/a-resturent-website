@@ -50,8 +50,19 @@ export function Header() {
         <Link onClick={() => setOpen(false)} href="/#story">
           Our story
         </Link>
-        <Link onClick={() => setOpen(false)} href="/#visit">
+        <Link
+          onClick={() => setOpen(false)}
+          href="/reservations"
+          aria-current={path.startsWith("/reservations") ? "page" : undefined}
+        >
           Find your table
+        </Link>
+        <Link
+          onClick={() => setOpen(false)}
+          href="/contact"
+          aria-current={path === "/contact" ? "page" : undefined}
+        >
+          Visit & contact
         </Link>
       </nav>
       <div className="header-actions">
@@ -64,7 +75,7 @@ export function Header() {
           <span>{lines.reduce((s, i) => s + i.quantity, 0)}</span>
         </Link>
         <Link className="button small header-order" href="/menu">
-          Order something good <ArrowUpRight size={13} />
+          Order online <ArrowUpRight size={13} />
         </Link>
         <button
           className="icon-button mobile-toggle"

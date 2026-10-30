@@ -10,6 +10,7 @@ export const staffOrderSchema = z
   .object({
     fulfillment: z.enum(["DINE_IN", "PICKUP"]),
     tableId: z.string().min(1).max(80).nullable().optional(),
+    reservationId: z.string().min(1).max(80).optional(),
     customerName: z.string().trim().min(2).max(80).default("Walk-in guest"),
     notes: z.string().trim().max(500).optional(),
     items: z
@@ -27,6 +28,11 @@ export const staffOrderSchema = z
   })
   .strict()
   .superRefine((data, ctx) => {
+    if (data.reservationId && (data.fulfillment !== "DINE_IN" || !data.tableId))
+      ctx.addIssue({
+        code: "custom",
+        message: "A seated reservation requires its dine-in table.",
+      });
     if (data.fulfillment === "DINE_IN" && !data.tableId)
       ctx.addIssue({ code: "custom", message: "Select a table for dine-in." });
     if (data.fulfillment === "PICKUP" && data.tableId)

@@ -15,11 +15,13 @@ export type Category = {
   slug: string;
   items: MenuItem[];
 };
+import type { BusinessConfig } from "./business-config";
 export type Menu = {
   name: string;
   currency: string;
   deliveryFee: number;
   categories: Category[];
+  business?: BusinessConfig;
 };
 export type CartLine = { menuItemId: string; quantity: number };
 export type TrackedOrder = {

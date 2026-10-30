@@ -9,6 +9,13 @@ export type PosTable = {
   id: string;
   label: string;
   seats: number;
+  reservationHold?: {
+    id: string;
+    status: string;
+    startsAt: string;
+    endsAt: string;
+    date?: string;
+  } | null;
   orders: {
     id: string;
     customerName: string;

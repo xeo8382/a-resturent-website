@@ -66,11 +66,15 @@ export function PosTables({ canCreate }: { canCreate: boolean }) {
         {tables.map((t) => (
           <article
             key={t.id}
-            className={`floor-table ${t.orders.length ? "occupied" : ""}`}
+            className={`floor-table ${t.orders.length || t.reservationHold ? "occupied" : ""}`}
           >
             <div>
               <span className="table-occupancy">
-                {t.orders.length ? "Occupied" : "Available"}
+                {t.orders.length
+                  ? "Occupied"
+                  : t.reservationHold
+                    ? "Reserved"
+                    : "Available"}
               </span>
               <Armchair size={21} />
             </div>
@@ -93,6 +97,24 @@ export function PosTables({ canCreate }: { canCreate: boolean }) {
                   </span>
                 </Link>
               ))
+            ) : t.reservationHold ? (
+              canCreate ? (
+                <Link
+                  className="floor-order"
+                  href={
+                    t.reservationHold.date
+                      ? `/pos/reservations?date=${t.reservationHold.date}`
+                      : "/pos/reservations"
+                  }
+                >
+                  <strong>Reservation hold</strong>
+                  <span>
+                    Manage booking <ArrowUpRight size={15} />
+                  </span>
+                </Link>
+              ) : (
+                <p>Held for a reservation</p>
+              )
             ) : canCreate ? (
               <Link className="floor-order" href={`/pos?table=${t.id}`}>
                 <strong>Open a new check</strong>

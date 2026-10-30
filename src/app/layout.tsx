@@ -5,11 +5,12 @@ import "./globals.css";
 import "./customer.css";
 export const metadata: Metadata = {
   title: {
-    default: "Ember & Table — Made by fire. Shared with love.",
+    default: "Ember & Table — Menu, orders & reservations",
     template: "%s | Ember & Table",
   },
   description:
-    "An original restaurant concept. Fire-led food, generous plates, and good company. Explore the sample menu and order for delivery or pickup.",
+    "Explore Ember & Table’s menu, order for pickup or configured delivery, and check table reservations. Real business details and launch approval are pending.",
+  applicationName: "Ember & Table",
   robots: { index: false, follow: false },
 };
 export default function RootLayout({

@@ -1,5 +1,7 @@
 # Phase 3 POS scope and inventory
 
+This is the historical Phase 3 report. Subsequent [restaurant completion](RESTAURANT-COMPLETION.md) adds reservations, table capacity/activation editing, business/delivery settings and the seated-booking POS workflow. Its current validation results and limits supersede the corresponding pending items below.
+
 Figma access attempt: the supplied prototype returned HTTP CONNECT 403 under the environment's network policy. Exported screenshots have been requested. Any UI changes in this phase are reference-independent and provisional; no exact visual match is claimed.
 
 Existing: PostgreSQL/Prisma menu and online orders; role-backed staff sessions; incoming order SSE plus polling fallback; expected-state transitions; kitchen preparation restrictions; cash attestation on completion; audited events; read-only table overview; menu price/availability updates and administrator staff creation.

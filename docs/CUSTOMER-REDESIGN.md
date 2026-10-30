@@ -1,5 +1,7 @@
 # Customer frontend redesign
 
+Subsequent work adds real reservations, Visit/contact/legal pages and business configuration; see [Restaurant completion](RESTAURANT-COMPLETION.md). The original scope below describes the earlier frontend-only redesign. Its cooking hero, media assets and motion primitives remain unchanged in the completion branch.
+
 The public homepage, menu, dish details, customer navigation and order-page visual layer have been redesigned. APIs, database schema/data, authentication/session logic, cart state, checkout logic, order transitions, and POS/admin components are unchanged. The CSS lives in `src/app/customer.css`; every visual selector is scoped to `.customer-site`. `CustomerFrame` excludes `/pos` and `/admin` entirely. Font faces are registered globally but assigned only inside that customer scope.
 
 Motion uses Motion for React: line-by-line hero type, staggered content reveals, bounded hero image/text/inset parallax, opposing story photograph parallax, menu filtering layout transitions, and short route-entry fades. Hover/focus image zoom and arrow reveals are CSS. Only transform/opacity animate; native scrolling is retained, with no hijacking or smoothing loop. Hero/story scroll values update through Motion values rather than React render state. Reduced-motion CSS removes transforms/transitions and makes all reveal content immediately readable; reduced-motion hooks also stop parallax and layout animation.

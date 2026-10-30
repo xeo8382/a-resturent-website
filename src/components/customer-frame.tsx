@@ -10,7 +10,7 @@ export function CustomerFrame({ children }: { children: React.ReactNode }) {
     return children;
   return (
     <div
-      className={`customer-site ${pathname === "/" ? "customer-home" : "customer-inner"}`}
+      className={`customer-site ${pathname === "/" ? "customer-home" : "customer-inner"}${pathname.startsWith("/reservations") ? " customer-reservations" : ""}`}
     >
       <Header />
       <motion.div

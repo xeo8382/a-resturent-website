@@ -40,6 +40,8 @@ enum ReservationStatus {
   CONFIRMED
   CANCELLED
   SEATED
+  COMPLETED
+  NO_SHOW
 }
 model Restaurant {
   id String @id @default(cuid())
@@ -47,6 +49,8 @@ model Restaurant {
   name String
   currency String @default("BDT")
   deliveryFee Int @default(6000)
+  businessSettings Json?
+  businessVersion Int @default(0)
   users User[]
   categories MenuCategory[]
   items MenuItem[]
@@ -114,6 +118,9 @@ model Order {
   restaurant Restaurant @relation(fields: [restaurantId], references: [id])
   tableId String?
   table Table? @relation(fields: [tableId], references: [id])
+  reservationId String? @unique
+  reservation Reservation? @relation(fields: [reservationId], references: [id])
+  deliveryZone String?
   source OrderSource @default(ONLINE)
   createdById String?
   createdBy User? @relation(fields: [createdById], references: [id], onDelete: SetNull)
@@ -171,6 +178,8 @@ model Table {
   restaurant Restaurant @relation(fields: [restaurantId], references: [id])
   label String
   seats Int
+  active Boolean @default(true)
+  version Int @default(0)
   orders Order[]
   reservations Reservation[]
   @@unique([restaurantId, label])
@@ -183,8 +192,18 @@ model Reservation {
   table Table? @relation(fields: [tableId], references: [id])
   name String
   phone String
+  email String?
+  timeZone String?
+  notes String?
   partySize Int
   startsAt DateTime
+  endsAt DateTime
+  trackingTokenHash String?
+  idempotencyKey String? @unique
+  requestHash String?
+  order Order?
   status ReservationStatus @default(REQUESTED)
   createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([restaurantId, startsAt])
 }

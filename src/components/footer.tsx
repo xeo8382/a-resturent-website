@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="site-footer">
       <div>
         <Link href="/" className="footer-brand">
-          ember & table<span>Good food. Better company.</span>
+          ember & table<span>Menu, orders & reservations</span>
         </Link>
       </div>
       <div>
@@ -13,12 +13,17 @@ export function Footer() {
         <Link href="/menu">
           Explore the menu <ArrowUpRight size={11} />
         </Link>
-        <Link href="/pos/login">
-          Staff sign in <ArrowUpRight size={11} />
+        <Link href="/reservations">
+          Find your table <ArrowUpRight size={11} />
+        </Link>
+        <Link href="/contact">
+          Visit & contact <ArrowUpRight size={11} />
         </Link>
       </div>
       <div>
         <span className="eyebrow">THE FINE PRINT</span>
+        <Link href="/privacy">Privacy</Link>
+        <Link href="/terms">Terms</Link>
         <p>
           Concept restaurant · Sample menu & pricing
           <br />

@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useCart } from "./providers";
 import { useMenu } from "./menu-browser";
 import { money } from "@/lib/order-rules";
+import { defaultBusiness, deliveryQuote } from "@/lib/business-config";
 export function CheckoutForm() {
   const { lines, ready, clear } = useCart();
   const { menu, error: menuError } = useMenu();
@@ -13,6 +14,7 @@ export function CheckoutForm() {
     "DELIVERY",
   );
   const [error, setError] = useState("");
+  const [deliveryZoneId, setDeliveryZoneId] = useState("");
   const [busy, setBusy] = useState(false);
   const lock = useRef(false);
   const router = useRouter();
@@ -41,7 +43,15 @@ export function CheckoutForm() {
   const invalid = lines.some(
     (l) => !items.find((i) => i.id === l.menuItemId)?.available,
   );
-  const fee = fulfillment === "DELIVERY" ? menu.deliveryFee : 0;
+  const business = menu.business ?? defaultBusiness;
+  const quote = deliveryQuote(
+    business,
+    fulfillment,
+    subtotal,
+    menu.deliveryFee,
+    deliveryZoneId,
+  );
+  const fee = quote.fee;
   async function submit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (lock.current) return;
@@ -56,6 +66,9 @@ export function CheckoutForm() {
       notes: form.get("notes"),
       fulfillment,
       items: lines,
+      ...(fulfillment === "DELIVERY" && business.deliveryMode === "zones"
+        ? { deliveryZoneId }
+        : {}),
     };
     try {
       // Persist the exact attempt before sending: a network retry reuses both key and private token.
@@ -140,11 +153,48 @@ export function CheckoutForm() {
             Pickup <small>Free</small>
           </label>
         </fieldset>
-        {fulfillment === "PICKUP" && (
+        {fulfillment === "DELIVERY" && business.deliveryMode === "zones" && (
+          <label>
+            Delivery zone
+            <select
+              required
+              value={deliveryZoneId}
+              onChange={(e) => setDeliveryZoneId(e.target.value)}
+            >
+              <option value="">Select your area</option>
+              {business.deliveryZones.map((zone) => (
+                <option value={zone.id} key={zone.id}>
+                  {zone.name} · {money(zone.fee)} · minimum{" "}
+                  {money(Math.max(zone.minimum, business.minimumOrder))}
+                </option>
+              ))}
+            </select>
+            <small>
+              Staff will verify that the address falls inside your selected
+              area.
+            </small>
+          </label>
+        )}
+        {fulfillment === "DELIVERY" && business.deliveryMode === "sample" && (
+          <p className="notice">
+            Sample delivery fee. Real delivery areas have not been configured;
+            use sample orders only.
+          </p>
+        )}
+        {quote.error && (
+          <p role="alert" className="notice error">
+            {quote.error}
+            {quote.minimum > 0 ? ` Minimum: ${money(quote.minimum)}.` : ""}
+          </p>
+        )}
+        {fulfillment === "PICKUP" && !business.address && (
           <p className="notice">
             Demo restaurant: a real pickup location is not configured. Use
             sample orders only.
           </p>
+        )}
+        {fulfillment === "PICKUP" && business.address && (
+          <p className="notice">Pickup: {business.address}</p>
         )}
         <label>
           Your name
@@ -219,7 +269,13 @@ export function CheckoutForm() {
         </div>
         <div className="summary-row">
           <span>Delivery</span>
-          <span>{fee ? money(fee) : "Free pickup"}</span>
+          <span>
+            {fulfillment === "PICKUP"
+              ? "Free pickup"
+              : business.deliveryMode === "zones" && !deliveryZoneId
+                ? "Select zone"
+                : money(fee)}
+          </span>
         </div>
         <div className="summary-row total">
           <span>Total</span>
@@ -247,7 +303,7 @@ export function CheckoutForm() {
         )}
         <button
           className="button wide"
-          disabled={busy || invalid}
+          disabled={busy || invalid || !!quote.error}
           type="submit"
         >
           {busy ? (

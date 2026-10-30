@@ -7,6 +7,7 @@ export const checkoutSchema = z
       .trim()
       .regex(/^\+?[0-9 ()-]{8,20}$/, "Enter a valid phone number."),
     fulfillment: z.enum(["DELIVERY", "PICKUP"]),
+    deliveryZoneId: z.uuid().optional(),
     address: z.string().trim().max(400).optional(),
     notes: z.string().trim().max(500).optional(),
     items: z

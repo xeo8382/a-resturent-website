@@ -1,6 +1,6 @@
 # Ember & Table
 
-An original restaurant concept built with Next.js App Router, TypeScript, Tailwind CSS, Motion for React, PostgreSQL, Prisma and Zod. Phase 1 implements a real customer-order-to-staff workflow. All menu copy, prices and restaurant details are sample content. Customer photography is licensed serving inspiration, not exact dish photography. No real restaurant is configured; use sample customer information.
+An original restaurant concept built with Next.js App Router, TypeScript, Tailwind CSS, Motion for React, PostgreSQL, Prisma and Zod. Includes real ordering, staff POS, atomic table reservations and operator-managed business/delivery configuration. Seed menu/prices/tables are sample content; real business details remain unconfigured. Photography/video are licensed stock inspiration. The site stays noindex pending explicit launch approval.
 
 ## Run locally
 
@@ -24,15 +24,27 @@ Use the existing checkout in isolated cloud tasks; do not create a Git worktree 
 
 ## What works
 
-- `/`: viewport-height photographic homepage, editorial typography, layered imagery, coordinated scroll parallax/reveals, route-entry transitions, accessible mobile navigation and reduced-motion support.
+- `/`: viewport-height cooking-video homepage, editorial typography, layered imagery, coordinated scroll parallax/reveals, accessible mobile navigation, reduced-motion/data-saver support and a configured Visit section.
 - `/menu`, `/menu/[slug]`: database menu, categories, search, dish details, allergen notes, availability and cart controls.
-- `/cart`, `/checkout`: browser-persisted quantities, delivery or pickup, server validation and cash-only payment. Delivery is BDT 60; pickup is free. No online payment is collected.
+- `/cart`, `/checkout`: browser-persisted quantities, delivery or pickup, server-calculated pricing/zone fees/minimums and cash-only payment. The default labelled sample delivery fee remains BDT 60; operators can configure flat fees, zones or disable delivery. Pickup is free. No online payment is collected.
 - `/orders/[id]#<private-token>`: private receipt, totals, payment state and live status timeline. Save the complete link; there is no customer account or recovery flow.
 - `/pos/login`, `/pos`, `/pos/orders`: staff sessions, a searchable/category-based staff order composer, dine-in/pickup orders, a combined online/staff queue, validated status updates and explicit cash-collection confirmation.
 - `/pos/kitchen`: kitchen queue. Kitchen users can start preparation and mark ready; they cannot accept, cancel, dispatch or complete orders.
 - `/admin`: managers/admins create menu items and edit content, categories, allergen lists, prices and availability. New items receive a placeholder illustration. Admins can create service, kitchen and manager accounts. Staff listing is read-only.
-- `/pos/tables`: live active-check overview with table selection and order links. One active check per table is enforced in PostgreSQL; completed/cancelled checks release the table. Reservations and table reassignment are not implemented.
+- `/pos/tables`: active-check/reservation-hold overview. One active check per table is enforced in PostgreSQL. Held tables are unavailable to walk-ins; seated bookings open their own linked POS check. Table reassignment is not implemented.
 - `/pos/receipts/[id]`: protected printable cash receipts or clearly labelled unpaid/void order tickets.
+- `/reservations`, `/reservations/[id]#<private-token>`: server availability, atomic capacity-based table allocation, idempotent retries, PostgreSQL overlap prevention and private persisted confirmation. No email/SMS is sent.
+- `/pos/reservations`: service-staff list, legacy-request confirmation, seating, cancellation, no-show, completion and linked POS access. Kitchen users cannot manage bookings.
+- `/admin/business`: managers/admins configure address/contact/timezone/hours, booking rules, table capacities/activation and delivery zones/fees/minimums with stale-write protection.
+- `/contact`, `/privacy`, `/terms`: configured Visit/contact details and pre-launch privacy/terms pages. Public staff-login links are removed; server authentication/authorization remain enforced.
+
+## Configure the business before real bookings
+
+After migrations and the initial admin seed, open `/pos/login` privately, then `/admin/business`. Supply real address, service area, contact details and IANA timezone. Set weekly opening/closing times, verify the actual floor plan/table capacities, choose hold/turnover, lead time, party-size and booking-horizon rules, then enable reservations. Missing details are visibly unconfigured. Seed data does **not** invent hours or enable booking.
+
+Choose delivery mode and configure fees/minimum food subtotals in BDT. Named zones determine server-side fees/minimums; staff must verify addresses because no geocoding provider is configured. Sample mode preserves the original ordering demo and labels its fee; it is not a claim of real delivery coverage.
+
+See [the completion report](docs/RESTAURANT-COMPLETION.md) for API additions, table concurrency, screenshots and verification. Privacy/terms remain pre-launch drafts; legal/operator details and a retention process still need review. Noindex stays unconditional until a separately approved launch change.
 
 ## Order integrity and authorization
 
@@ -66,7 +78,7 @@ The runtime uses Prisma 6's JavaScript query engine and official PostgreSQL adap
 
 `npm run db:migrate` executes ordered migration directories with a PostgreSQL advisory lock, one transaction per migration, and SHA-256 checksums in `_ember_migrations`. Repeating it verifies checksums and skips applied migrations. Never modify an applied migration. Do not mix this runner with `prisma migrate deploy`; migration ledgers differ. For new schema changes, generate/review a new SQL migration with Prisma diff against the previous schema or a development database, then apply it with this runner. Back up data before schema changes. Current migrations do not delete data.
 
-Seeding is repeatable and uses upserts that preserve edits. It creates seven sample dishes and eight sample tables. Reservations are modeled only; booking is not implemented. Phase 3 adds table association at staff order creation. See `docs/PHASE-3-POS.md` for the additive migration, permissions and table concurrency policy.
+Seeding is repeatable and preserves edits. It creates seven sample dishes and eight sample tables without enabling reservations. New additive migrations add business configuration, booking windows/tokens, linked POS checks, overlap exclusion and one-seated-party-per-table enforcement. PostgreSQL's trusted `btree_gist` extension is required; the database owner must be allowed to install it. Legacy bookings receive a bounded 90-minute hold and must be reviewed before service opens. Existing overlapping holds or multiple seated parties on one table must be reconciled before applying the constraints; migrations fail rather than deleting records. Original migrations and existing order/payment snapshots are preserved.
 
 ## Verify
 
@@ -84,9 +96,9 @@ npm run build
 npm run test:e2e
 ```
 
-- Unit tests: totals, invalid quantities, hostile cart prices, checkout validation, transitions, cash confirmation, password verification and request origins.
-- PostgreSQL integration tests: atomic persistence, snapshots, idempotent concurrent retries, tracking-token access, unavailable items, cross-restaurant isolation, kitchen restrictions, stale changes and cash/void payment states. Tests clean up their own records.
-- Chromium tests: real browser checkout → login → POS lifecycle → live tracking, API access/origin checks and mobile/reduced-motion layouts. Playwright starts the production server after a build. It uses `/usr/bin/chromium` by default in this environment; set `CHROMIUM_PATH` to your executable elsewhere. Test accounts have random credentials and are removed after the run.
+- 42 unit tests: order totals/validation, status/cash rules, password/origin checks, reservation calendar/timezone/DST/operating rules and configured delivery quotes.
+- 29 PostgreSQL integration tests: atomic order/booking persistence, simultaneous claims/retries, direct-SQL constraints, capacity/occupancy, private access, tenant/role permissions, stale writes, zone fees/minimums and linked reservation/payment completion. Tests remove their records and restore settings.
+- 33 Chromium tests: customer order → POS → kitchen/cash/tracking, real reservations and operator settings, private confirmation/cancellation, seated-booking POS, lost-response recovery, zone checkout, slow-network/error states, navigation/noindex, cooking-video playback and desktop/mobile/reduced-motion behavior. Playwright starts the production server after a build using APP_ORIGIN's port. It uses `/usr/bin/chromium` by default; set `CHROMIUM_PATH` elsewhere. Test accounts use random credentials and are removed after the run.
 
 Screenshots/traces are local ignored outputs in `test-results`. `npm run format` formats source. An override updates Prisma tooling's transitive `deepmerge-ts` to the patched major version; client generation, build and test checks cover the integration.
 
@@ -96,4 +108,4 @@ The requested Fragrancia website and Figma prototype returned network-policy den
 
 ## Not production-ready
 
-Verified locally only. Before real service: replace sample content/contact/location and fulfillment rules, verify HTTPS cookies/origin/streaming on your deployment, configure database TLS/backups/pooling, add deployment-level abuse protection and monitoring, complete a security/accessibility review, and test operational recovery. Current login throttling is per account; it does not replace edge/IP rate limiting or prevent account lockout abuse. Public checkout has no anti-spam/anti-bot controls. Stream and order retention policies, session/throttle cleanup, CSP, password reset, staff deactivation/role editing, menu item deletion/image uploads, category editing, reservations/table reassignment, taxes, discounts, refunds, stock, notifications, online payments and production observability are not implemented. Status completion records a staff cash attestation, not a bank-verified payment. The queue shows at most 200 recent/active orders; high-volume pagination is future work.
+Verified locally only. Before real service: replace sample menu/prices and configure actual business details, verify HTTPS cookies/origin/streaming on your deployment, configure database TLS/backups/pooling, add abuse protection/monitoring, and complete security/accessibility and operational reviews. Login throttling is per account; it does not replace edge/IP protection. Public checkout/reservations have no configured CAPTCHA/edge anti-bot service. Retention jobs, staff password/role lifecycle management, image uploads, category CRUD, in-place reservation rescheduling/table reassignment, table merging, overnight/multiple-shift/holiday schedules, taxes, discounts, refunds, inventory, notifications and online payments remain future work. Cash completion records a staff attestation. The order queue retains its 200-order limit. No production/deployment certification is claimed.

@@ -16,6 +16,7 @@ import {
 } from "@/lib/customer-photos";
 import { Reveal, RevealGroup, RevealText } from "./reveal";
 import { HeroVideo, HeroVideoControl } from "./hero-video";
+import { BusinessDetails } from "./business-details";
 import {
   useCompactMotion,
   useReducedMotionPreference,
@@ -155,8 +156,9 @@ export function CinematicHome() {
             }}
           >
             <p className="cinema-description">
-              Honest ingredients. A little smoke. A lot of soul.
-              <br />A meal to remember. A moment to stay for.
+              Explore the menu, order for pickup or delivery,
+              <br />
+              or reserve a place at our table.
             </p>
             <div className="hero-ctas">
               <Link className="button" href="/menu">
@@ -413,23 +415,16 @@ export function CinematicHome() {
           </Reveal>
         </div>
         <Reveal className="last-course-copy">
-          <p className="eyebrow">SAVE A LITTLE ROOM</p>
+          <p className="eyebrow">PLAN YOUR VISIT</p>
           <h2>
-            Your next good
+            A place
             <br />
-            memory starts
-            <br />
-            <em>at the table.</em>
+            <em>at our table.</em>
           </h2>
-          <p>A little comfort, wherever your table is.</p>
-          <Link href="/menu" className="button">
-            Let’s eat <ArrowUpRight size={18} />
+          <Link href="/reservations" className="button">
+            Find your table <ArrowUpRight size={18} />
           </Link>
-          <p className="sample-note">
-            Concept restaurant. Location & hours to be announced.
-            <br />
-            Sample orders only. Reservations unavailable in this demo.
-          </p>
+          <BusinessDetails compact />
         </Reveal>
         <span className="last-course-watermark" aria-hidden="true">
           stay awhile.

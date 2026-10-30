@@ -5,6 +5,7 @@ import { checkoutSchema, statusSchema } from "./validation";
 import { digest } from "./crypto";
 import { HttpError } from "./http";
 import { totals, assertTransition } from "./order-rules";
+import { deliveryQuote, readBusiness } from "./business-config";
 export const orderInclude = {
   items: true,
   payment: true,
@@ -19,6 +20,7 @@ export function publicOrder(
     fulfillment: order.fulfillment,
     subtotal: order.subtotal,
     deliveryFee: order.deliveryFee,
+    deliveryZone: order.deliveryZone,
     total: order.total,
     createdAt: order.createdAt,
     updatedAt: order.updatedAt,
@@ -82,7 +84,16 @@ export async function createOrder(input: unknown) {
               lineTotal: item.price * i.quantity,
             };
           });
-          const price = totals(items, data.fulfillment, restaurant.deliveryFee);
+          const subtotal = totals(items, data.fulfillment, 0).subtotal;
+          const quote = deliveryQuote(
+            readBusiness(restaurant.businessSettings),
+            data.fulfillment,
+            subtotal,
+            restaurant.deliveryFee,
+            data.deliveryZoneId,
+          );
+          if (quote.error) throw new HttpError(400, quote.error);
+          const price = totals(items, data.fulfillment, quote.fee);
           const order = await tx.order.create({
             data: {
               restaurantId: restaurant.id,
@@ -91,6 +102,7 @@ export async function createOrder(input: unknown) {
               address: data.fulfillment === "DELIVERY" ? data.address : null,
               notes: data.notes,
               fulfillment: data.fulfillment,
+              deliveryZone: quote.zone,
               ...price,
               trackingTokenHash: digest(data.trackingToken),
               idempotencyKey: data.idempotencyKey,
@@ -179,6 +191,11 @@ export async function updateStatus(
       await tx.payment.update({
         where: { orderId: id },
         data: { status: "VOID" },
+      });
+    if (data.status === "COMPLETED" && order.reservationId)
+      await tx.reservation.updateMany({
+        where: { id: order.reservationId, status: "SEATED" },
+        data: { status: "COMPLETED" },
       });
     return { id, status: data.status };
   });

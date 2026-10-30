@@ -35,9 +35,13 @@ const empty: Draft = {
 export function PosComposer({
   userId,
   initialTable,
+  reservationId,
+  initialGuest,
 }: {
   userId: string;
   initialTable?: string;
+  reservationId?: string;
+  initialGuest?: string;
 }) {
   const router = useRouter();
   const [categories, setCategories] = useState<PosCategory[]>([]);
@@ -51,7 +55,7 @@ export function PosComposer({
   const lock = useRef(false);
   const hydrated = useRef(false);
   const attempt = useRef<{ fingerprint: string; key: string } | null>(null);
-  const storage = `ember-pos-${userId}`;
+  const storage = `ember-pos-${userId}${reservationId ? `-${reservationId}` : ""}`;
   const refresh = useCallback(async () => {
     const responses = await Promise.all([
       fetch("/api/pos/menu", { cache: "no-store" }),
@@ -81,14 +85,24 @@ export function PosComposer({
               : {}),
           });
           attempt.current = saved.attempt ?? null;
-        } else if (initialTable) setDraft({ ...empty, tableId: initialTable });
+        } else if (initialTable)
+          setDraft({
+            ...empty,
+            tableId: initialTable,
+            customerName: initialGuest || "",
+          });
       } catch {
-        if (initialTable) setDraft({ ...empty, tableId: initialTable });
+        if (initialTable)
+          setDraft({
+            ...empty,
+            tableId: initialTable,
+            customerName: initialGuest || "",
+          });
       }
       hydrated.current = true;
     }
     setLoaded(true);
-  }, [storage, initialTable]);
+  }, [storage, initialTable, initialGuest]);
   useEffect(() => {
     let active = true;
     const load = async () => {
@@ -136,7 +150,10 @@ export function PosComposer({
   );
   const table = tables.find((t) => t.id === draft.tableId);
   const tableInvalid =
-    draft.fulfillment === "DINE_IN" && (!table || !!table.orders.length);
+    draft.fulfillment === "DINE_IN" &&
+    (!table ||
+      !!table.orders.length ||
+      (!!table.reservationHold && table.reservationHold.id !== reservationId));
   function quantity(id: string, n: number) {
     setDraft((d) => ({
       ...d,
@@ -162,6 +179,7 @@ export function PosComposer({
         customerName: draft.customerName.trim() || "Walk-in guest",
         notes: draft.notes,
         items: draft.items,
+        ...(reservationId ? { reservationId } : {}),
       };
       const fingerprint = JSON.stringify(payload);
       if (!attempt.current || attempt.current.fingerprint !== fingerprint)
@@ -374,10 +392,18 @@ export function PosComposer({
                         <option
                           key={t.id}
                           value={t.id}
-                          disabled={!!t.orders.length}
+                          disabled={
+                            !!t.orders.length ||
+                            (!!t.reservationHold &&
+                              t.reservationHold.id !== reservationId)
+                          }
                         >
                           {t.label} · {t.seats} seats
-                          {t.orders.length ? " · Occupied" : ""}
+                          {t.orders.length
+                            ? " · Occupied"
+                            : t.reservationHold
+                              ? " · Reserved"
+                              : ""}
                         </option>
                       ))}
                     </select>

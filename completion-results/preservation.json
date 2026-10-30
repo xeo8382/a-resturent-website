@@ -1,0 +1,70 @@
+{
+  "src/components/hero-video.tsx": {
+    "unchanged": true,
+    "sha256": "fbf75ca522c318022903ca154ae6ad1313b93b57df50ebc9ec51bdcc2bb3a030"
+  },
+  "src/components/reveal.tsx": {
+    "unchanged": true,
+    "sha256": "c74463e06db1f75e858c943448b15c4a54ddace900abd2ffb8e1fa61e2fa9bb2"
+  },
+  "src/components/use-motion-preferences.ts": {
+    "unchanged": true,
+    "sha256": "31b55185fa0cca79a98111bfabe205e4b9f9396bbd501375ef8dd9349909cd60"
+  },
+  "src/components/providers.tsx": {
+    "unchanged": true,
+    "sha256": "da2842dd1fceb2923244179aa90004435f2cc8da116da11599310a7625873090"
+  },
+  "src/lib/auth.ts": {
+    "unchanged": true,
+    "sha256": "7fcac311e062f7d5614640233fccf47a608148957ff237cc08382912ebc09086"
+  },
+  "src/lib/crypto.ts": {
+    "unchanged": true,
+    "sha256": "ae6689132a1b6e856166216d2b056bc73ff7803ec54ad3526ca8215b6165986c"
+  },
+  "src/lib/stream.ts": {
+    "unchanged": true,
+    "sha256": "8b3c2f73d5a6d88a7d1143ee27bdf2fbfe5797fc95cff1ef950c6c96dae90089"
+  },
+  "package.json": {
+    "unchanged": true,
+    "sha256": "071478a123a2d213cc130c00ad67d34b9426b7783b9afe6519cf499debf849d7"
+  },
+  "package-lock.json": {
+    "unchanged": true,
+    "sha256": "15e594be7b40e8419535afdb02d900a682e62290449c1d931c1ee7f0a00ee64d"
+  },
+  "next.config.ts": {
+    "unchanged": true,
+    "sha256": "fbddd24ea733544634473abe779207eb939376b7185395b1b550c4197a998899"
+  },
+  "public/videos/restaurant-hero-mobile-poster.jpg": {
+    "unchanged": true,
+    "sha256": "0fee903492b3b9a94ca72970dc45ce6b98df23e14c543849d0fbff547748b082"
+  },
+  "public/videos/restaurant-hero.mp4": {
+    "unchanged": true,
+    "sha256": "2ef2fda88bb747fc0b8d1832f10717416ad3b578feea52013ca6146b7db71ee7"
+  },
+  "public/videos/CREDITS.md": {
+    "unchanged": true,
+    "sha256": "d3bdd00ee4928317f77c092b8fe4a0756dbabcfdbf6725fc3e96b7ccbd9ed2a8"
+  },
+  "public/videos/restaurant-hero-mobile.mp4": {
+    "unchanged": true,
+    "sha256": "e41e4fa757031fa07129348ef7c29d1666ccb2c6cd5f348333261b5793c7d1bd"
+  },
+  "public/videos/restaurant-hero-poster.jpg": {
+    "unchanged": true,
+    "sha256": "dfe2b1b1c8ef82586de9fa9449921dfce11f8af15e255bea8c81c578f82bf1ca"
+  },
+  "prisma/migrations/20261029000000_initial/migration.sql": {
+    "unchanged": true,
+    "sha256": "e91a27c017456f40f1ea0aea1b8034fe882ebe738dd9bb2ac7bb8f93a4eb7bef"
+  },
+  "prisma/migrations/20261030000000_staff_pos/migration.sql": {
+    "unchanged": true,
+    "sha256": "83b8525165841e2b397d822c5a3a1c8914fca35f19afc4c66e6bc858d8d44d7f"
+  }
+}

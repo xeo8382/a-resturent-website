@@ -1,0 +1,34 @@
+{
+  "verifiedAt": "2026-10-30T21:24:39.105374+06:00",
+  "branch": "feature/reservations-and-business-20261030",
+  "build": "passed",
+  "lint": "passed",
+  "typecheck": "passed",
+  "unitTestsPassed": 42,
+  "integrationTestsPassed": 29,
+  "browserTestsPassed": 33,
+  "publicViewportWidths": [
+    1440,
+    390
+  ],
+  "staffViewportWidths": [
+    1280,
+    768,
+    390
+  ],
+  "lostSuccessResponseRecoveredWithoutDuplicate": true,
+  "databaseOverlapAndSeatedConstraintsVerified": true,
+  "noIndexRetained": true,
+  "noRealBusinessDetailsInvented": true,
+  "defaultReservationsEnabled": false,
+  "defaultConfiguredHours": 0,
+  "afterTestCleanup": {
+    "reservations": 0,
+    "orders": 0,
+    "staffAccounts": 0,
+    "sampleItems": 7,
+    "sampleTables": 8
+  },
+  "deployed": false,
+  "mergedToMain": false
+}

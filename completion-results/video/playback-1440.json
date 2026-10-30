@@ -1,0 +1,88 @@
+{
+  "width": 1440,
+  "attributes": {
+    "muted": true,
+    "defaultMuted": true,
+    "autoPlay": true,
+    "loop": true,
+    "playsInline": true,
+    "source": "/videos/restaurant-hero.mp4",
+    "duration": 9.375,
+    "width": 1280,
+    "height": 720,
+    "decodedFrames": 14,
+    "objectFit": "cover"
+  },
+  "sampledFrames": [
+    {
+      "time": 0.5,
+      "hash": 1891487658
+    },
+    {
+      "time": 0.583333,
+      "hash": 1715728938
+    },
+    {
+      "time": 0.625,
+      "hash": 462349708
+    },
+    {
+      "time": 0.666667,
+      "hash": 1459110050
+    },
+    {
+      "time": 0.75,
+      "hash": 3901488398
+    },
+    {
+      "time": 0.791667,
+      "hash": 3263751933
+    },
+    {
+      "time": 0.875,
+      "hash": 356459993
+    },
+    {
+      "time": 0.916667,
+      "hash": 3990209055
+    },
+    {
+      "time": 1,
+      "hash": 115311337
+    },
+    {
+      "time": 1.083333,
+      "hash": 1516134622
+    },
+    {
+      "time": 1.166667,
+      "hash": 1420763663
+    },
+    {
+      "time": 1.208333,
+      "hash": 600168374
+    },
+    {
+      "time": 1.25,
+      "hash": 1694531525
+    },
+    {
+      "time": 1.333333,
+      "hash": 1450398556
+    },
+    {
+      "time": 1.375,
+      "hash": 2448570033
+    },
+    {
+      "time": 1.416667,
+      "hash": 4233364465
+    }
+  ],
+  "loopVerified": true,
+  "pauseVerified": true,
+  "offscreenPauseVerified": true,
+  "reducedMotionStoppedLoading": true,
+  "coverage": true,
+  "errors": []
+}

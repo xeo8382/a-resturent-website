@@ -110,7 +110,7 @@ test("HTTP authorization, origin checks, and private tracking are enforced", asy
   expect(
     (
       await request.patch("/api/admin/menu", {
-        headers: { Origin: "http://localhost:3000" },
+        headers: { Origin: process.env.APP_ORIGIN || "http://localhost:3000" },
         data: { id: "x", price: 1, available: true },
       })
     ).status(),

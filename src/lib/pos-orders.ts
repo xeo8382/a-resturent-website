@@ -5,6 +5,9 @@ import { digest, newToken } from "./crypto";
 import { HttpError } from "./errors";
 import { totals } from "./order-rules";
 import { assertServiceRole, staffOrderSchema } from "./pos-validation";
+import { readBusiness } from "./business-config";
+import { holdConflict } from "./reservations";
+import { localParts } from "./reservation-time";
 export type StaffActor = Pick<User, "id" | "restaurantId" | "role">;
 export async function createStaffOrder(input: unknown, user: StaffActor) {
   assertServiceRole(user.role);
@@ -20,6 +23,7 @@ export async function createStaffOrder(input: unknown, user: StaffActor) {
     try {
       return await db.$transaction(
         async (tx) => {
+          await tx.$queryRaw`SELECT "id" FROM "Restaurant" WHERE "id"=${user.restaurantId} FOR UPDATE`;
           const existing = await tx.order.findUnique({
             where: { idempotencyKey: data.idempotencyKey },
           });
@@ -42,7 +46,7 @@ export async function createStaffOrder(input: unknown, user: StaffActor) {
           if (data.tableId) {
             const rows = await tx.$queryRaw<
               { id: string }[]
-            >`SELECT "id" FROM "Table" WHERE "id"=${data.tableId} AND "restaurantId"=${user.restaurantId} FOR UPDATE`;
+            >`SELECT "id" FROM "Table" WHERE "id"=${data.tableId} AND "restaurantId"=${user.restaurantId} AND "active"=true FOR UPDATE`;
             if (!rows.length)
               throw new HttpError(404, "Table not found in your restaurant.");
             const active = await tx.order.findFirst({
@@ -55,6 +59,49 @@ export async function createStaffOrder(input: unknown, user: StaffActor) {
               throw new HttpError(
                 409,
                 "This table already has an active order. Refresh tables and choose another.",
+              );
+            if (data.reservationId) {
+              const booking = await tx.reservation.findFirst({
+                where: {
+                  id: data.reservationId,
+                  restaurantId: user.restaurantId,
+                  tableId: data.tableId,
+                  status: "SEATED",
+                },
+              });
+              if (!booking)
+                throw new HttpError(
+                  409,
+                  "Select a current, seated reservation for this table.",
+                );
+              if (
+                await tx.order.findUnique({
+                  where: { reservationId: booking.id },
+                })
+              )
+                throw new HttpError(
+                  409,
+                  "This reservation already has a POS check.",
+                );
+            }
+            const until = new Date(
+              Date.now() +
+                readBusiness(restaurant.businessSettings).reservationMinutes *
+                  60000,
+            );
+            const booking = await tx.reservation.findFirst({
+              where: {
+                tableId: data.tableId,
+                ...(data.reservationId
+                  ? { id: { not: data.reservationId } }
+                  : {}),
+                ...holdConflict(new Date(), until),
+              },
+            });
+            if (booking)
+              throw new HttpError(
+                409,
+                "This table is reserved during the configured service window. Use the reservation's seated POS link or choose another table.",
               );
           }
           const menu = await tx.menuItem.findMany({
@@ -86,6 +133,7 @@ export async function createStaffOrder(input: unknown, user: StaffActor) {
               source: "STAFF",
               createdById: user.id,
               tableId: data.tableId ?? null,
+              reservationId: data.reservationId ?? null,
               customerName: data.customerName,
               phone: "",
               notes: data.notes,
@@ -146,13 +194,27 @@ export async function posMenu(restaurantId: string) {
   });
 }
 export async function posTables(restaurantId: string) {
-  return db.table.findMany({
-    where: { restaurantId },
+  const restaurant = await db.restaurant.findUniqueOrThrow({
+    where: { id: restaurantId },
+  });
+  const now = new Date(),
+    until = new Date(
+      now.getTime() +
+        readBusiness(restaurant.businessSettings).reservationMinutes * 60000,
+    );
+  const tables = await db.table.findMany({
+    where: { restaurantId, active: true },
     orderBy: { label: "asc" },
     select: {
       id: true,
       label: true,
       seats: true,
+      reservations: {
+        where: holdConflict(now, until),
+        select: { id: true, status: true, startsAt: true, endsAt: true },
+        orderBy: { startsAt: "asc" },
+        take: 1,
+      },
       orders: {
         where: { status: { notIn: ["COMPLETED", "CANCELLED"] } },
         select: {
@@ -166,6 +228,18 @@ export async function posTables(restaurantId: string) {
       },
     },
   });
+  return tables.map(({ reservations, ...table }) => ({
+    ...table,
+    reservationHold: reservations[0]
+      ? {
+          ...reservations[0],
+          date: localParts(
+            reservations[0].startsAt,
+            readBusiness(restaurant.businessSettings).timeZone || "UTC",
+          ).date,
+        }
+      : null,
+  }));
 }
 export async function staffReceipt(id: string, user: StaffActor) {
   assertServiceRole(user.role);

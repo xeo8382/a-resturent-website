@@ -116,7 +116,11 @@ export function CartView() {
           <span>{money(subtotal)}</span>
         </div>
         <p>
-          Delivery: {money(menu.deliveryFee)}. Pickup is free.
+          {menu.business?.deliveryMode === "zones"
+            ? "Delivery fee and minimum depend on your selected zone."
+            : menu.business?.deliveryMode === "disabled"
+              ? "Delivery is unavailable. Pickup is free."
+              : `Delivery: ${money(menu.deliveryFee)}. Pickup is free.`}
           <br />
           Final total calculated at checkout.
         </p>
