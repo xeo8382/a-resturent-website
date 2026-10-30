@@ -8,7 +8,7 @@ const dummyHash = hashPassword("unused-password-for-timing-check");
 export async function POST(request: Request) {
   let stage = "origin";
   try {
-    const origin = checkOrigin(request);
+    const origin = checkOrigin(request, { operation: "login" });
     stage = "body";
     const data = loginSchema.parse(await readJson(request));
     const key = digest(data.email);

@@ -1,14 +1,63 @@
 import { NextResponse } from "next/server";
 import { ZodError } from "zod";
 import { HttpError } from "./errors";
-import { allowedRequestOrigins } from "./origin";
+import { codespacesProxyDecision, originPolicy, parseOrigin } from "./origin";
 export { HttpError } from "./errors";
-export function checkOrigin(request: Request) {
-  const origins = allowedRequestOrigins();
-  const origin = request.headers.get("origin");
-  if (!origin || !origins.has(origin))
-    throw new HttpError(403, "Invalid request origin.");
-  return origin;
+export function checkOrigin(
+  request: Request,
+  options?: { operation: "login" },
+) {
+  const parsed = parseOrigin(request.headers.get("origin"));
+  let policy: ReturnType<typeof originPolicy>;
+  try {
+    policy = originPolicy();
+  } catch (error) {
+    console.warn("Origin validation:", {
+      operation: options?.operation ?? "mutation",
+      result: "rejected",
+      reason: process.env.APP_ORIGIN?.trim()
+        ? "invalid_configuration"
+        : "missing_configuration",
+      requestOrigin: parsed.origin,
+      configuredOrigin: null,
+    });
+    throw error;
+  }
+  const proxy = codespacesProxyDecision(request, parsed.origin, policy);
+  const acceptedOrigin =
+    proxy.origin ??
+    (parsed.origin !== null && policy.origins.has(parsed.origin)
+      ? parsed.origin
+      : null);
+  const accepted = acceptedOrigin !== null;
+  if (!accepted || options?.operation === "login") {
+    const diagnostic = {
+      operation: options?.operation ?? "mutation",
+      result: accepted ? "accepted" : "rejected",
+      reason:
+        parsed.reason !== "valid"
+          ? parsed.reason
+          : accepted
+            ? proxy.origin
+              ? "codespaces_origin_rewrite"
+              : "origin_allowed"
+            : "origin_not_allowed",
+      requestOrigin: parsed.origin,
+      configuredOrigin: policy.configuredOrigin,
+      codespacesOrigin: policy.codespacesOrigin,
+      codespacesReason: policy.codespacesReason,
+      acceptedOrigin,
+      proxyReason: proxy.reason,
+      hasForwardedHost: request.headers.has("x-forwarded-host"),
+      hasForwardedProto: request.headers.has("x-forwarded-proto"),
+    };
+    // Only parsed origins and fixed reason codes. Never log raw headers, URLs,
+    // request bodies, account identifiers, cookie values or exception messages.
+    if (accepted) console.info("Origin validation:", diagnostic);
+    else console.warn("Origin validation:", diagnostic);
+  }
+  if (!acceptedOrigin) throw new HttpError(403, "Invalid request origin.");
+  return acceptedOrigin;
 }
 export async function readJson(request: Request) {
   if (!request.headers.get("content-type")?.includes("application/json"))
