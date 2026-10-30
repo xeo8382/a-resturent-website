@@ -6,6 +6,8 @@ Motion uses Motion for React: line-by-line hero type, staggered content reveals,
 
 The [homepage motion audit](HOMEPAGE-MOTION-AUDIT.md) adds a coordinated background/type/inset entrance, staggered invitation copy, photograph reveals, smaller mobile parallax bounds, and hydration-safe live motion preferences. The homepage uses its own entrance sequence instead of also moving the complete route; other customer routes retain their entry fades.
 
+The hero now uses a [self-hosted Pexels cooking film](HERO-VIDEO.md) inside those same Motion layers, with responsive MP4s, matching posters, an accessible pause/play control, and reduced-motion/data-saver loading guards. All other photography and restaurant content remain unchanged.
+
 The Fragrancia reference remains blocked by the environment network policy. This is an original response to the requested cinematic direction, not a claim of visual matching. All photographs are local and documented CC0 assets; see `public/photos/CREDITS.txt` and the retained source credits. They are serving inspiration, not exact dish photography. The citrus drink keeps its original illustration pending a suitable licensed drink image. Database/POS images have not been replaced.
 
 Image rendering uses Next Image with responsive sizes, explicit aspect-ratio containers, lazy loading below the fold and priority only on the hero/detail lead image. Fonts are local WOFF2 with swap. Actual low-end Android performance and external deployment are not yet verified. Route transitions animate the incoming route; this does not implement an App Router exit crossfade. Existing sample-data and operational limitations in README.md still apply.

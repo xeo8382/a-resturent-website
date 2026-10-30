@@ -15,6 +15,7 @@ import {
   customerPhotoFrameStyle,
 } from "@/lib/customer-photos";
 import { Reveal, RevealGroup, RevealText } from "./reveal";
+import { HeroVideo, HeroVideoControl } from "./hero-video";
 import {
   useCompactMotion,
   useReducedMotionPreference,
@@ -114,16 +115,11 @@ export function CinematicHome() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: reduced ? 0 : 1.35, ease }}
           >
-            <Image
-              src="/photos/kitchen.jpg"
-              alt="Chefs finishing colourful plates together at an open restaurant kitchen"
-              fill
-              sizes="(max-width: 760px) 160vw, 120vw"
-              priority
-            />
+            <HeroVideo />
           </motion.div>
         </motion.div>
         <div className="cinema-shade" />
+        <HeroVideoControl />
         <motion.div
           className="cinema-copy"
           style={reduced ? undefined : { y: textY }}

@@ -1,0 +1,18 @@
+{
+  "build": "passed",
+  "lint": "passed",
+  "typecheck": "passed",
+  "unitTestsPassed": 32,
+  "integrationTestsPassed": 16,
+  "existingBrowserTestsPassed": 17,
+  "videoBrowserTestsPassed": 7,
+  "viewports": [
+    1440,
+    390
+  ],
+  "realDecodedFramesVerified": true,
+  "reducedMotionAndSaveDataMP4Requests": 0,
+  "expectedVideo404FallbackPassed": true,
+  "deployed": false,
+  "originalProviderLicensePageAccessible": false
+}
