@@ -1,12 +1,14 @@
 import { NextResponse } from "next/server";
 import { ZodError } from "zod";
 import { HttpError } from "./errors";
+import { allowedRequestOrigins } from "./origin";
 export { HttpError } from "./errors";
 export function checkOrigin(request: Request) {
-  const origin = process.env.APP_ORIGIN;
-  if (!origin) throw new HttpError(503, "Server origin is not configured.");
-  if (request.headers.get("origin") !== new URL(origin).origin)
+  const origins = allowedRequestOrigins();
+  const origin = request.headers.get("origin");
+  if (!origin || !origins.has(origin))
     throw new HttpError(403, "Invalid request origin.");
+  return origin;
 }
 export async function readJson(request: Request) {
   if (!request.headers.get("content-type")?.includes("application/json"))
@@ -32,7 +34,10 @@ export async function readJson(request: Request) {
     throw new HttpError(400, "Invalid JSON.");
   }
 }
-export function errorResponse(error: unknown) {
+export function errorResponse(
+  error: unknown,
+  context?: { operation: "login"; stage: string },
+) {
   if (error instanceof HttpError)
     return NextResponse.json(
       { error: error.message },
@@ -46,10 +51,23 @@ export function errorResponse(error: unknown) {
   console.error(
     "Request failed:",
     error instanceof Error ? error.name : "Unknown error",
+    // Log only a fixed operation/stage and a machine code, never an error
+    // message/stack, request data, email, database URL or session token.
+    ...(context ? [{ ...context, code: diagnosticCode(error) }] : []),
   );
   return NextResponse.json(
     { error: "Unable to complete this request. Please try again." },
     { status: 500 },
   );
+}
+function diagnosticCode(error: unknown) {
+  const code =
+    typeof error === "object" && error !== null && "code" in error
+      ? error.code
+      : undefined;
+  return typeof code === "string" &&
+    /^(P\d{4}|[0-9A-Z]{5}|ECONNREFUSED|ETIMEDOUT|ENOTFOUND)$/.test(code)
+    ? code
+    : "UNCLASSIFIED";
 }
 export const privateHeaders = { "Cache-Control": "private, no-store" };

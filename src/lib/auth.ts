@@ -24,7 +24,7 @@ export async function requireUser(
     throw new HttpError(403, "You do not have permission.");
   return user;
 }
-export async function createSession(userId: string) {
+export async function createSession(userId: string, validatedOrigin?: string) {
   const token = newToken();
   await db.session.create({
     data: {
@@ -35,7 +35,11 @@ export async function createSession(userId: string) {
   });
   (await cookies()).set(sessionCookie, token, {
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
+    // Codespaces terminates HTTPS at its proxy, including for next dev.
+    // The origin comes from checkOrigin, never X-Forwarded-Proto.
+    secure:
+      process.env.NODE_ENV === "production" ||
+      validatedOrigin?.startsWith("https://") === true,
     sameSite: "lax",
     path: "/",
     maxAge: 8 * 3600,
